@@ -31,7 +31,7 @@ function buildInitialSelection(dataset) {
 }
 
 const state = {
-  activeFigureId: "current_ai_adoption",
+  activeFigureId: "home",
   selections: Object.fromEntries(datasets.map((dataset) => [dataset.id, buildInitialSelection(dataset)]))
 };
 
@@ -45,6 +45,7 @@ const countryColors = {
 
 const appTitle = document.getElementById("appTitle");
 const subtitle = document.getElementById("subtitle");
+const homeSection = document.getElementById("homeSection");
 const noteText = document.getElementById("noteText");
 const technologySelect = document.getElementById("technologySelect");
 const countrySelect = document.getElementById("countrySelect");
@@ -75,6 +76,14 @@ function getActiveDataset() {
 
 function isAboutTabActive() {
   return state.activeFigureId === "about";
+}
+
+function isHomeTabActive() {
+  return state.activeFigureId === "home";
+}
+
+function isNonDataTabActive() {
+  return isHomeTabActive() || isAboutTabActive();
 }
 
 function getActiveSelection() {
@@ -607,10 +616,26 @@ function renderIntro() {
 }
 
 function renderAll() {
+  if (isHomeTabActive()) {
+    updateTabStyles();
+    appTitle.hidden = false;
+    subtitle.hidden = true;
+    homeSection.hidden = false;
+    controlsSection.hidden = true;
+    periodControls.hidden = true;
+    chartsSection.hidden = true;
+    tableSection.hidden = true;
+    actionsSection.hidden = true;
+    notesSection.hidden = true;
+    aboutSection.hidden = true;
+    return;
+  }
+
   if (isAboutTabActive()) {
     updateTabStyles();
     appTitle.hidden = false;
     subtitle.hidden = true;
+    homeSection.hidden = true;
     controlsSection.hidden = true;
     periodControls.hidden = true;
     chartsSection.hidden = true;
@@ -623,6 +648,7 @@ function renderAll() {
 
   appTitle.hidden = false;
   subtitle.hidden = false;
+  homeSection.hidden = true;
   controlsSection.hidden = false;
   chartsSection.hidden = false;
   tableSection.hidden = false;
@@ -656,7 +682,7 @@ function triggerDownload(filename, fileContents, mimeType) {
 
 function setupDownloads() {
   downloadCsvButton.addEventListener("click", () => {
-    if (isAboutTabActive()) {
+    if (isNonDataTabActive()) {
       return;
     }
 
@@ -677,7 +703,7 @@ function setupDownloads() {
   });
 
   downloadJsonButton.addEventListener("click", () => {
-    if (isAboutTabActive()) {
+    if (isNonDataTabActive()) {
       return;
     }
 
@@ -711,7 +737,7 @@ function setupDownloads() {
 
 function setupControls() {
   technologySelect.addEventListener("change", (event) => {
-    if (isAboutTabActive()) {
+    if (isNonDataTabActive()) {
       return;
     }
 
@@ -728,7 +754,7 @@ function setupControls() {
   });
 
   countrySelect.addEventListener("change", (event) => {
-    if (isAboutTabActive()) {
+    if (isNonDataTabActive()) {
       return;
     }
 
@@ -767,8 +793,8 @@ function setupTabs() {
   tabButtons.forEach((button) => {
     button.addEventListener("click", () => {
       const nextId = button.dataset.figureId;
-      const isAboutTab = nextId === "about";
-      if ((!datasetById[nextId] && !isAboutTab) || nextId === state.activeFigureId) {
+      const isNonDataTab = nextId === "home" || nextId === "about";
+      if ((!datasetById[nextId] && !isNonDataTab) || nextId === state.activeFigureId) {
         return;
       }
       state.activeFigureId = nextId;

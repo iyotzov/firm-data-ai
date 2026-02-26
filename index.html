@@ -15,10 +15,20 @@
         <section class="tabs card" role="tablist" aria-label="Dataset tabs">
           <button
             class="tab-button is-active"
+            id="tab-home"
+            data-figure-id="home"
+            role="tab"
+            aria-selected="true"
+            type="button"
+          >
+            Home
+          </button>
+          <button
+            class="tab-button"
             id="tab-current-ai-adoption"
             data-figure-id="current_ai_adoption"
             role="tab"
-            aria-selected="true"
+            aria-selected="false"
             type="button"
           >
             Current AI Adoption
@@ -77,6 +87,73 @@
       </header>
 
       <p id="subtitle" class="subtitle"></p>
+
+      <section id="homeSection" class="card" hidden>
+        <p>
+          An interactive data dashboard accompanying the NBER Working Paper
+          <strong>"Firm Data on AI"</strong>. It visualises firm-level survey results on AI
+          adoption, personal AI use, and the employment and productivity impacts of AI across
+          multiple countries.
+        </p>
+        <blockquote>
+          <p>
+            <strong>Citation:</strong> Yotzov, I., J. M. Barrero, N. Bloom, P. Bunn, S. J.
+            Davis, K. M. Foster, A. Jalca, B. H. Meyer, P. Mizen, M. A. Navarrete, P. Smietanka,
+            G. Thwaites and B. Z. Wang (2026), "Firm Data on AI", <em>NBER Working Paper</em>
+            34836.
+          </p>
+        </blockquote>
+        <p>
+          <strong>Link to Working Paper:</strong> <a href="https://www.nber.org/papers/w34836" target="_blank" rel="noopener noreferrer">Firm Data on AI - Working Paper</a>
+        </p>
+        <p>
+          <strong>Link to Underlying Data:</strong> <a href="https://bit.ly/3Zrvfs5" target="_blank" rel="noopener noreferrer">Firm Data on AI - Aggregated Data</a>
+        </p>       
+        <hr />
+        <h2>Features</h2>
+        <div class="table-wrapper">
+          <table class="home-features-table">
+            <thead>
+              <tr>
+                <th>Tab</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Current AI Adoption</strong></td>
+                <td>AI technologies currently in use by firms</td>
+              </tr>
+              <tr>
+                <td><strong>Expected AI Adoption</strong></td>
+                <td>AI technologies firms expect to adopt over the next 3 years</td>
+              </tr>
+              <tr>
+                <td><strong>Personal AI Use</strong></td>
+                <td>Weekly AI use frequency reported by survey respondents</td>
+              </tr>
+              <tr>
+                <td><strong>Employment Impacts</strong></td>
+                <td>
+                  Distribution and cumulative employment effects of AI (past 3 years / next 3
+                  years)
+                </td>
+              </tr>
+              <tr>
+                <td><strong>Productivity Impacts</strong></td>
+                <td>
+                  Distribution and cumulative productivity effects of AI (past 3 years / next 3
+                  years)
+                </td>
+              </tr>
+              <tr>
+                <td><strong>About Us</strong></td>
+                <td>Information about the research team and surveys</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
 
       <section id="controlsSection" class="controls card">
         <div id="technologyControl">
