@@ -1,10 +1,10 @@
-const figure7Data = {
-  id: "figure_7",
+const personalAiUseData = {
+  id: "personal_ai_use",
   title: "Frequency of AI use by survey respondent (% of respondents, average use)",
   sourceSheet: "Figure 7",
   tabLabel: "Personal AI Use",
   rowLabel: "Category",
-  downloadBase: "figure-7-personal-ai-use",
+  downloadBase: "personal-ai-use",
   countries: [
     {
       id: "all_firms",
@@ -100,14 +100,14 @@ const figure7Data = {
     "The data are based on responses to the question: \"On average, how frequently do you personally use artificial intelligence technologies in a typical working week?\" The data from the US Survey of Business Uncertainty was collected in November 2025. The data from the UK Decision Maker Panel was collected over November 2025 – January 2026. The data from the Australian Business Outlook Scenarios Survey was collected in December 2025. The data from the German Bundesbank Online Panel – Firms (BOP-F) were collected in January 2026. The data results from the SBU, DMP, and BOP-F are employment-weighted; the results from the BOSS are unweighted. The results for all firms is the average of the four surveys, weighted by the respective number of responses. To calculate the average use per week (Panel B), values are assigned to each of the options in Panel A: 0 to \"Not at all\"; 0.5 to \"up to 1 hour a week\"; 3 to \"1 to 5 hours a week\"; 7.5 to \">5 hours a week\"."
 };
 
-function figure7ToCsv() {
-  const header = ["Category", ...figure7Data.countries.map((country) => country.label)];
-  const mainRows = figure7Data.technologies.map((entry) => {
-    const values = figure7Data.countries.map((country) => entry.values[country.id]);
+function personalAiUseToCsv() {
+  const header = ["Category", ...personalAiUseData.countries.map((country) => country.label)];
+  const mainRows = personalAiUseData.technologies.map((entry) => {
+    const values = personalAiUseData.countries.map((country) => entry.values[country.id]);
     return [entry.name, ...values];
   });
-  const extraRows = (figure7Data.additionalRows || []).map((entry) => {
-    const values = figure7Data.countries.map((country) => entry.values[country.id]);
+  const extraRows = (personalAiUseData.additionalRows || []).map((entry) => {
+    const values = personalAiUseData.countries.map((country) => entry.values[country.id]);
     return [entry.name, ...values];
   });
 

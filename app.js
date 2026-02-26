@@ -1,9 +1,9 @@
-const datasets = [figure5Data, figureA7Data, figure7Data, employmentImpactsData, productivityImpactsData];
+const datasets = [currentAiAdoptionData, expectedAiAdoptionData, personalAiUseData, employmentImpactsData, productivityImpactsData];
 
 const datasetById = Object.fromEntries(datasets.map((dataset) => [dataset.id, dataset]));
 
 function isPersonalAIUseDataset(dataset) {
-  return dataset.id === "figure_7";
+  return dataset.id === "personal_ai_use";
 }
 
 function isEmploymentDataset(dataset) {
@@ -31,7 +31,7 @@ function buildInitialSelection(dataset) {
 }
 
 const state = {
-  activeFigureId: "figure_5",
+  activeFigureId: "current_ai_adoption",
   selections: Object.fromEntries(datasets.map((dataset) => [dataset.id, buildInitialSelection(dataset)]))
 };
 
@@ -109,6 +109,43 @@ function formatHours(value) {
 function formatImpact(value) {
   const sign = value > 0 ? "+" : "";
   return `${sign}${value.toFixed(1)} pp`;
+}
+
+function formatResponseCount(value) {
+  return Math.round(value).toLocaleString("en-US");
+}
+
+function getSurveyResponses(dataset, selection) {
+  if (isEmploymentDataset(dataset)) {
+    const period = getActivePeriod(dataset, selection);
+    return period ? period.responses || null : null;
+  }
+
+  if (!(dataset.countries || []).some((country) => typeof country.responses === "number")) {
+    return null;
+  }
+
+  return Object.fromEntries(dataset.countries.map((country) => [country.id, country.responses]));
+}
+
+function appendSurveyResponsesRow(tbody, dataset, responsesByCountry) {
+  if (!responsesByCountry) {
+    return;
+  }
+
+  const row = document.createElement("tr");
+  const nameCell = document.createElement("td");
+  nameCell.textContent = "Number of Survey Responses";
+  row.append(nameCell);
+
+  dataset.countries.forEach((country) => {
+    const valueCell = document.createElement("td");
+    const value = responsesByCountry[country.id];
+    valueCell.textContent = typeof value === "number" ? formatResponseCount(value) : "";
+    row.append(valueCell);
+  });
+
+  tbody.append(row);
 }
 
 function createBarRow({ label, valueLabel, widthPercent, color }) {
@@ -371,6 +408,7 @@ function renderMixChart() {
 function renderTable() {
   const dataset = getActiveDataset();
   const selection = getActiveSelection();
+  const responsesByCountry = getSurveyResponses(dataset, selection);
   const headerCells = [dataset.rowLabel || "Technology", ...dataset.countries.map((country) => country.label)];
 
   const thead = document.createElement("thead");
@@ -414,6 +452,7 @@ function renderTable() {
     });
 
     tbody.append(cumulativeRow);
+    appendSurveyResponsesRow(tbody, dataset, responsesByCountry);
 
     dataTable.innerHTML = "";
     dataTable.append(thead, tbody);
@@ -452,6 +491,8 @@ function renderTable() {
 
     tbody.append(row);
   });
+
+  appendSurveyResponsesRow(tbody, dataset, responsesByCountry);
 
   dataTable.innerHTML = "";
   dataTable.append(thead, tbody);

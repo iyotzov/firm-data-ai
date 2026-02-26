@@ -38,6 +38,13 @@ const employmentImpactsData = {
       id: "past_3_years",
       label: "Impacts over last 3 years",
       sourceSheet: "Figure 8",
+      responses: {
+        all_firms: 5802,
+        us: 988,
+        uk: 1972,
+        germany: 2240,
+        australia: 602
+      },
       categories: [
         {
           name: "Large negative impact, reducing employment by >5%",
@@ -105,6 +112,13 @@ const employmentImpactsData = {
       id: "next_3_years",
       label: "Expected impacts over next 3 years",
       sourceSheet: "Figure 9",
+      responses: {
+        all_firms: 5872,
+        us: 1009,
+        uk: 1972,
+        germany: 2289,
+        australia: 602
+      },
       categories: [
         {
           name: "Large negative impact, reducing employment by >5%",

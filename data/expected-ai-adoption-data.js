@@ -1,9 +1,9 @@
-const figureA7Data = {
-  id: "figure_a7",
+const expectedAiAdoptionData = {
+  id: "expected_ai_adoption",
   title: "AI Technologies Expected to be Used over next 3 years (% of respondents)",
   sourceSheet: "Figure A7",
   tabLabel: "Expected Use (Next 3 Years)",
-  downloadBase: "figure-a7-ai-technologies",
+  downloadBase: "expected-ai-adoption",
   countries: [
     {
       id: "all_firms",
@@ -127,10 +127,10 @@ const figureA7Data = {
     "The data are based on responses to the question: \"Which of the following artificial intelligence technologies, if any, does your business currently use? And which do you intend to make use of over the next three years?\" Firms could select more than one option. The data from the US Survey of Business Uncertainty was collected in November 2025. The data from the UK Decision Maker Panel was collected over November 2025 – January 2026. The data from the German Bundesbank Online Panel – Firms (BOP-F) were collected in January 2026. The data from the Australian Business Outlook Scenarios Survey was collected in December 2025. The data results from the SBU, DMP, and BOP-F are employment-weighted; the results from the BOSS are unweighted. The results for all firms is the average of the four surveys, weighted by the respective number of responses."
 };
 
-function figureA7ToCsv() {
-  const header = ["Technology", ...figureA7Data.countries.map((country) => country.label)];
-  const rows = figureA7Data.technologies.map((technology) => {
-    const values = figureA7Data.countries.map((country) => technology.values[country.id]);
+function expectedAiAdoptionToCsv() {
+  const header = ["Technology", ...expectedAiAdoptionData.countries.map((country) => country.label)];
+  const rows = expectedAiAdoptionData.technologies.map((technology) => {
+    const values = expectedAiAdoptionData.countries.map((country) => technology.values[country.id]);
     return [technology.name, ...values];
   });
 

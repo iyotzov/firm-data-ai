@@ -1,9 +1,9 @@
-const figure5Data = {
-  id: "figure_5",
+const currentAiAdoptionData = {
+  id: "current_ai_adoption",
   title: "AI Technologies Currently Used (% of respondents)",
   sourceSheet: "Figure 5",
   tabLabel: "Current Use",
-  downloadBase: "figure-5-ai-technologies",
+  downloadBase: "current-ai-adoption",
   countries: [
     {
       id: "all_firms",
@@ -127,10 +127,10 @@ const figure5Data = {
     "The data are based on responses to the question: \"Which of the following artificial intelligence technologies, if any, does your business currently use?\" Firms could select more than one option. The data from the US Survey of Business Uncertainty was collected in November 2025. The data from the UK Decision Maker Panel was collected over November 2025 - January 2026. The data from the German Bundesbank Online Panel-Firms (BOP-F) was collected in January 2026. The data from the Australian Business Outlook Scenarios Survey was collected in December 2025. The data results from the SBU, DMP, and BOP-F are employment-weighted; the results from the BOSS are unweighted. The results for all firms is the average of the four surveys, weighted by the respective number of responses."
 };
 
-function figure5ToCsv() {
-  const header = ["Technology", ...figure5Data.countries.map((country) => country.label)];
-  const rows = figure5Data.technologies.map((technology) => {
-    const values = figure5Data.countries.map((country) => technology.values[country.id]);
+function currentAiAdoptionToCsv() {
+  const header = ["Technology", ...currentAiAdoptionData.countries.map((country) => country.label)];
+  const rows = currentAiAdoptionData.technologies.map((technology) => {
+    const values = currentAiAdoptionData.countries.map((country) => technology.values[country.id]);
     return [technology.name, ...values];
   });
   return [header, ...rows]

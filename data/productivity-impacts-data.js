@@ -38,6 +38,13 @@ const productivityImpactsData = {
       id: "past_3_years",
       label: "Impacts over last 3 years",
       sourceSheet: "Figure 10",
+      responses: {
+        all_firms: 5813,
+        us: 988,
+        uk: 1972,
+        germany: 2251,
+        australia: 602
+      },
       categories: [
         {
           name: "Large negative impact, reducing productivity by >5%",
@@ -105,6 +112,13 @@ const productivityImpactsData = {
       id: "next_3_years",
       label: "Expected impacts over next 3 years",
       sourceSheet: "Figure 11",
+      responses: {
+        all_firms: 5878,
+        us: 1005,
+        uk: 1972,
+        germany: 2299,
+        australia: 602
+      },
       categories: [
         {
           name: "Large negative impact, reducing productivity by >5%",
