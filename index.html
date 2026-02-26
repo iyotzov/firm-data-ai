@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Firm AI Use Dashboard</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="background-layer" aria-hidden="true"></div>
+    <main class="app-shell">
+      <header class="hero">
+        <h1 id="appTitle">Firm Data on AI</h1>
+        <section class="tabs card" role="tablist" aria-label="Dataset tabs">
+          <button
+            class="tab-button is-active"
+            id="tab-figure-5"
+            data-figure-id="figure_5"
+            role="tab"
+            aria-selected="true"
+            type="button"
+          >
+            Current AI Adoption
+          </button>
+          <button
+            class="tab-button"
+            id="tab-figure-a7"
+            data-figure-id="figure_a7"
+            role="tab"
+            aria-selected="false"
+            type="button"
+          >
+            Expected AI Adoption
+          </button>
+          <button
+            class="tab-button"
+            id="tab-figure-7"
+            data-figure-id="figure_7"
+            role="tab"
+            aria-selected="false"
+            type="button"
+          >
+            Personal AI Use
+          </button>
+          <button
+            class="tab-button"
+            id="tab-employment-impacts"
+            data-figure-id="employment_impacts"
+            role="tab"
+            aria-selected="false"
+            type="button"
+          >
+            Employment Impacts
+          </button>
+          <button
+            class="tab-button"
+            id="tab-productivity-impacts"
+            data-figure-id="productivity_impacts"
+            role="tab"
+            aria-selected="false"
+            type="button"
+          >
+            Productivity Impacts
+          </button>
+          <button
+            class="tab-button"
+            id="tab-about"
+            data-figure-id="about"
+            role="tab"
+            aria-selected="false"
+            type="button"
+          >
+            About Us
+          </button>
+        </section>
+      </header>
+
+      <p id="subtitle" class="subtitle"></p>
+
+      <section id="controlsSection" class="controls card">
+        <div id="technologyControl">
+          <label id="technologyLabel" for="technologySelect">Country comparison for technology</label>
+          <select id="technologySelect"></select>
+        </div>
+        <div id="countryControl">
+          <label id="countryLabel" for="countrySelect">Technology mix for country</label>
+          <select id="countrySelect"></select>
+        </div>
+      </section>
+
+      <section id="periodControls" class="period-controls card" hidden>
+        <p class="period-label">Impact horizon</p>
+        <div id="periodButtons" class="period-buttons"></div>
+      </section>
+
+      <section id="chartsSection" class="grid-layout">
+        <article class="card">
+          <h2 id="comparisonTitle">Country Comparison</h2>
+          <p class="chart-caption" id="comparisonCaption"></p>
+          <div id="comparisonChart" class="bar-chart" role="img" aria-label="Country comparison chart"></div>
+        </article>
+
+        <article class="card">
+          <h2 id="mixTitle">Technology Mix</h2>
+          <p class="chart-caption" id="mixCaption"></p>
+          <div id="mixChart" class="bar-chart" role="img" aria-label="Technology mix chart"></div>
+        </article>
+      </section>
+
+      <section id="tableSection" class="card table-card">
+        <h2>Underlying Data</h2>
+        <div class="table-wrapper">
+          <table id="dataTable"></table>
+        </div>
+      </section>
+
+      <section id="aboutSection" class="about-layout" hidden>
+        <article class="card">
+          <h2>The Team</h2>
+          <div class="about-placeholder">
+            Add team details here.
+          </div>
+        </article>
+        <article class="card">
+          <h2>The Surveys</h2>
+          <div class="about-placeholder">
+            Add survey details here.
+          </div>
+        </article>
+      </section>
+
+      <div id="actionsSection" class="actions">
+        <button id="downloadCsvButton" type="button">Download CSV</button>
+        <button id="downloadJsonButton" type="button" hidden>Download JSON</button>
+      </div>
+
+      <footer id="notesSection" class="card footnote">
+        <h2>Notes</h2>
+        <div id="noteText"></div>
+      </footer>
+    </main>
+
+    <script src="data/figure5-data.js"></script>
+    <script src="data/figure-a7-data.js"></script>
+    <script src="data/figure7-data.js"></script>
+    <script src="data/employment-impacts-data.js"></script>
+    <script src="data/productivity-impacts-data.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

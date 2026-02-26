@@ -1,0 +1,13 @@
+Period,Impact Category,All Firms,US,UK,Germany,Australia
+Impacts over last 3 years,Large negative impact reducing productivity by >5%,0.23195843798382934,0,0.16,0.37,0.3322
+Impacts over last 3 years,Small negative impact reducing productivity by <5%,0.819202167555479,0.5,0.71,0.43,3.1561
+Impacts over last 3 years,No impact,89.41142126268709,91.4,89.32,91.34,79.2359
+Impacts over last 3 years,Small positive impact increasing productivity by <5%,7.8135707896094955,7,8.28,6.12,13.9535
+Impacts over last 3 years,Large positive impact increasing productivity by >5%,1.7029785996903493,1,1.53,1.73,3.3223
+Impacts over last 3 years,Cumulative impact over past 3 years (%),0.2851857276793394,0.2375,0.29200000000000004,0.24425,0.4941925
+Expected impacts over next 3 years,Large negative impact reducing productivity by >5%,1.044084926845866,1,0.82,0.92,2.3256
+Expected impacts over next 3 years,Small negative impact reducing productivity by <5%,1.4927284450493365,0.9,1.25,1.22,4.3189
+Expected impacts over next 3 years,No impact,59.735004423273224,38.7,53.24,72.44,67.608
+Expected impacts over next 3 years,Small positive impact increasing productivity by <5%,25.45746781218101,42.4,28.01,18.7,14.6179
+Expected impacts over next 3 years,Large positive impact increasing productivity by >5%,12.291723239197006,17.1,16.68,6.73,11.1296
+Expected impacts over next 3 years,Cumulative impact over next 3 years (%),1.4426913576046274,2.245,1.8585,0.87275,0.917775
