@@ -1,5 +1,9 @@
 # Firm AI Use Dashboard
 
+This provides a dashboard to visualise data based on the NBER Working Paper "Firm Data on AI"
+
+Citation: Yotzov, I, J M Barrero, N Bloom, P Bunn, S J Davis, K M Foster, A Jalca, B H Meyer, P Mizen, M A Navarrete, P Smietanka, G Thwaites and B Z Wang (2026), "Firm Data on AI", NBER Working Paper 34836.
+
 This dashboard visualizes:
 
 - `current-ai-adoption`: AI technologies currently used
@@ -19,7 +23,7 @@ This dashboard visualizes:
 4. Use the selectors to:
    - compare one technology across countries
    - view the technology mix for a selected country
-5. Use **Download CSV** or **Download JSON** to export the underlying data used in the active tab.
+5. Use **Download CSV** to export the underlying data used in the active tab.
 
 ## Files
 
