@@ -62,6 +62,7 @@ const mixCaption = document.getElementById("mixCaption");
 const tableSection = document.getElementById("tableSection");
 const dataTable = document.getElementById("dataTable");
 const aboutSection = document.getElementById("aboutSection");
+const mediaSection = document.getElementById("mediaSection");
 const actionsSection = document.getElementById("actionsSection");
 const notesSection = document.getElementById("notesSection");
 const downloadCsvButton = document.getElementById("downloadCsvButton");
@@ -78,12 +79,16 @@ function isAboutTabActive() {
   return state.activeFigureId === "about";
 }
 
+function isMediaTabActive() {
+  return state.activeFigureId === "media";
+}
+
 function isHomeTabActive() {
   return state.activeFigureId === "home";
 }
 
 function isNonDataTabActive() {
-  return isHomeTabActive() || isAboutTabActive();
+  return isHomeTabActive() || isAboutTabActive() || isMediaTabActive();
 }
 
 function getActiveSelection() {
@@ -628,6 +633,7 @@ function renderAll() {
     actionsSection.hidden = true;
     notesSection.hidden = true;
     aboutSection.hidden = true;
+    mediaSection.hidden = true;
     return;
   }
 
@@ -643,6 +649,23 @@ function renderAll() {
     actionsSection.hidden = true;
     notesSection.hidden = true;
     aboutSection.hidden = false;
+    mediaSection.hidden = true;
+    return;
+  }
+
+  if (isMediaTabActive()) {
+    updateTabStyles();
+    appTitle.hidden = false;
+    subtitle.hidden = true;
+    homeSection.hidden = true;
+    controlsSection.hidden = true;
+    periodControls.hidden = true;
+    chartsSection.hidden = true;
+    tableSection.hidden = true;
+    actionsSection.hidden = true;
+    notesSection.hidden = true;
+    aboutSection.hidden = true;
+    mediaSection.hidden = false;
     return;
   }
 
@@ -655,6 +678,7 @@ function renderAll() {
   actionsSection.hidden = false;
   notesSection.hidden = false;
   aboutSection.hidden = true;
+  mediaSection.hidden = true;
 
   updateTabStyles();
   syncControls();
@@ -793,7 +817,7 @@ function setupTabs() {
   tabButtons.forEach((button) => {
     button.addEventListener("click", () => {
       const nextId = button.dataset.figureId;
-      const isNonDataTab = nextId === "home" || nextId === "about";
+      const isNonDataTab = nextId === "home" || nextId === "about" || nextId === "media";
       if ((!datasetById[nextId] && !isNonDataTab) || nextId === state.activeFigureId) {
         return;
       }
