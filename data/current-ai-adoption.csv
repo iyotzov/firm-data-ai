@@ -1,9 +1,104 @@
-Technology,UK,US,Australia,Germany,All Firms
-Any AI Technology,71.25387,77.5,59.3023255813954,64.66675,68.57373558763587
-Other,35.01939,34,12.7906976744186,19.77835,26.661078766983696
-Data processing using ML,33.21537,36.9,22.093023255814,21.27957,28.098078868885874
-Visual content creation,29.01178,32.5,20.0996677740864,29.50955,28.904895254755438
-Text generation using LLMs,33.48138,53.5,30.0664451827243,45.9774,41.48398576086957
-Image processing using ML,24.51033,26.7,11.7940199335548,14.50985,19.718112849864127
-Robotics,13.64889,13,7.47508305647841,3.858204,9.10938053804348
-Autonomous vehicles,2.991963,4.5,6.64451827242525,2.638384,3.4926873851902176
+Wave,Country,Survey,Fieldwork,Number of Survey Responses,Technology,Value
+Nov 2025 – Jan 2026,All Firms,Average across all firms in the surveyed countries,Nov 2025 – Jan 2026,5674,Any AI Technology,70.54373548466691
+Nov 2025 – Jan 2026,All Firms,Average across all firms in the surveyed countries,Nov 2025 – Jan 2026,5674,Other,27.393449379626368
+Nov 2025 – Jan 2026,All Firms,Average across all firms in the surveyed countries,Nov 2025 – Jan 2026,5674,Data processing using ML,28.91943750088122
+Nov 2025 – Jan 2026,All Firms,Average across all firms in the surveyed countries,Nov 2025 – Jan 2026,5674,Visual content creation,29.778467264716255
+Nov 2025 – Jan 2026,All Firms,Average across all firms in the surveyed countries,Nov 2025 – Jan 2026,5674,Text generation using LLMs,42.6454543813888
+Nov 2025 – Jan 2026,All Firms,Average across all firms in the surveyed countries,Nov 2025 – Jan 2026,5674,Image processing using ML,20.290949675713783
+Nov 2025 – Jan 2026,All Firms,Average across all firms in the surveyed countries,Nov 2025 – Jan 2026,5674,Robotics,9.351891541769476
+Nov 2025 – Jan 2026,All Firms,Average across all firms in the surveyed countries,Nov 2025 – Jan 2026,5674,Autonomous vehicles,3.5844454219245687
+Nov 2025 – Jan 2026,US,US Survey of Business Uncertainty,Nov 2025,818,Any AI Technology,93.5
+Nov 2025 – Jan 2026,US,US Survey of Business Uncertainty,Nov 2025,818,Other,41
+Nov 2025 – Jan 2026,US,US Survey of Business Uncertainty,Nov 2025,818,Data processing using ML,44.9
+Nov 2025 – Jan 2026,US,US Survey of Business Uncertainty,Nov 2025,818,Visual content creation,39.5
+Nov 2025 – Jan 2026,US,US Survey of Business Uncertainty,Nov 2025,818,Text generation using LLMs,64.7
+Nov 2025 – Jan 2026,US,US Survey of Business Uncertainty,Nov 2025,818,Image processing using ML,32.5
+Nov 2025 – Jan 2026,US,US Survey of Business Uncertainty,Nov 2025,818,Robotics,15.7
+Nov 2025 – Jan 2026,US,US Survey of Business Uncertainty,Nov 2025,818,Autonomous vehicles,5.4
+Nov 2025 – Jan 2026,UK,UK Decision Maker Panel,Nov 2025 – Jan 2026,1972,Any AI Technology,71.25387
+Nov 2025 – Jan 2026,UK,UK Decision Maker Panel,Nov 2025 – Jan 2026,1972,Other,35.01939
+Nov 2025 – Jan 2026,UK,UK Decision Maker Panel,Nov 2025 – Jan 2026,1972,Data processing using ML,33.21537
+Nov 2025 – Jan 2026,UK,UK Decision Maker Panel,Nov 2025 – Jan 2026,1972,Visual content creation,29.01178
+Nov 2025 – Jan 2026,UK,UK Decision Maker Panel,Nov 2025 – Jan 2026,1972,Text generation using LLMs,33.48138
+Nov 2025 – Jan 2026,UK,UK Decision Maker Panel,Nov 2025 – Jan 2026,1972,Image processing using ML,24.51033
+Nov 2025 – Jan 2026,UK,UK Decision Maker Panel,Nov 2025 – Jan 2026,1972,Robotics,13.64889
+Nov 2025 – Jan 2026,UK,UK Decision Maker Panel,Nov 2025 – Jan 2026,1972,Autonomous vehicles,2.991963
+Nov 2025 – Jan 2026,Germany,Germany Bundesbank Online Panel - Firms,Jan 2026,2282,Any AI Technology,64.66675
+Nov 2025 – Jan 2026,Germany,Germany Bundesbank Online Panel - Firms,Jan 2026,2282,Other,19.77835
+Nov 2025 – Jan 2026,Germany,Germany Bundesbank Online Panel - Firms,Jan 2026,2282,Data processing using ML,21.27957
+Nov 2025 – Jan 2026,Germany,Germany Bundesbank Online Panel - Firms,Jan 2026,2282,Visual content creation,29.50955
+Nov 2025 – Jan 2026,Germany,Germany Bundesbank Online Panel - Firms,Jan 2026,2282,Text generation using LLMs,45.9774
+Nov 2025 – Jan 2026,Germany,Germany Bundesbank Online Panel - Firms,Jan 2026,2282,Image processing using ML,14.50985
+Nov 2025 – Jan 2026,Germany,Germany Bundesbank Online Panel - Firms,Jan 2026,2282,Robotics,3.858204
+Nov 2025 – Jan 2026,Germany,Germany Bundesbank Online Panel - Firms,Jan 2026,2282,Autonomous vehicles,2.638384
+Nov 2025 – Jan 2026,Australia,Australia Business Outlook Scenarios Survey,Dec 2025,602,Any AI Technology,59.3023255813954
+Nov 2025 – Jan 2026,Australia,Australia Business Outlook Scenarios Survey,Dec 2025,602,Other,12.7906976744186
+Nov 2025 – Jan 2026,Australia,Australia Business Outlook Scenarios Survey,Dec 2025,602,Data processing using ML,22.093023255814
+Nov 2025 – Jan 2026,Australia,Australia Business Outlook Scenarios Survey,Dec 2025,602,Visual content creation,20.0996677740864
+Nov 2025 – Jan 2026,Australia,Australia Business Outlook Scenarios Survey,Dec 2025,602,Text generation using LLMs,30.0664451827243
+Nov 2025 – Jan 2026,Australia,Australia Business Outlook Scenarios Survey,Dec 2025,602,Image processing using ML,11.7940199335548
+Nov 2025 – Jan 2026,Australia,Australia Business Outlook Scenarios Survey,Dec 2025,602,Robotics,7.47508305647841
+Nov 2025 – Jan 2026,Australia,Australia Business Outlook Scenarios Survey,Dec 2025,602,Autonomous vehicles,6.64451827242525
+May – Jul 2026,All Firms,Average across all firms in the surveyed countries,May – Jul 2026,8879,Any AI Technology,78.47701247437774
+May – Jul 2026,All Firms,Average across all firms in the surveyed countries,May – Jul 2026,8879,Other,19.214966249577653
+May – Jul 2026,All Firms,Average across all firms in the surveyed countries,May – Jul 2026,8879,Data processing using ML,32.70480305552427
+May – Jul 2026,All Firms,Average across all firms in the surveyed countries,May – Jul 2026,8879,Visual content creation,34.41504148778015
+May – Jul 2026,All Firms,Average across all firms in the surveyed countries,May – Jul 2026,8879,Generative AI,62.91700671021511
+May – Jul 2026,All Firms,Average across all firms in the surveyed countries,May – Jul 2026,8879,Image processing using ML,22.379504640162178
+May – Jul 2026,All Firms,Average across all firms in the surveyed countries,May – Jul 2026,8879,Robotics and autonomous vehicles,8.407349523595
+May – Jul 2026,US,US Survey of Business Uncertainty,Jun 2026,1012,Any AI Technology,94.9
+May – Jul 2026,US,US Survey of Business Uncertainty,Jun 2026,1012,Other,36.3
+May – Jul 2026,US,US Survey of Business Uncertainty,Jun 2026,1012,Data processing using ML,46.6
+May – Jul 2026,US,US Survey of Business Uncertainty,Jun 2026,1012,Visual content creation,42.5
+May – Jul 2026,US,US Survey of Business Uncertainty,Jun 2026,1012,Generative AI,87.7
+May – Jul 2026,US,US Survey of Business Uncertainty,Jun 2026,1012,Image processing using ML,33.2
+May – Jul 2026,US,US Survey of Business Uncertainty,Jun 2026,1012,Robotics and autonomous vehicles,11
+May – Jul 2026,Canada,Canada Business Leaders' Pulse (BLP),May – Jun 2026,872,Any AI Technology,81.9
+May – Jul 2026,Canada,Canada Business Leaders' Pulse (BLP),May – Jun 2026,872,Other,12.3
+May – Jul 2026,Canada,Canada Business Leaders' Pulse (BLP),May – Jun 2026,872,Data processing using ML,21
+May – Jul 2026,Canada,Canada Business Leaders' Pulse (BLP),May – Jun 2026,872,Visual content creation,22.5
+May – Jul 2026,Canada,Canada Business Leaders' Pulse (BLP),May – Jun 2026,872,Generative AI,73.9
+May – Jul 2026,Canada,Canada Business Leaders' Pulse (BLP),May – Jun 2026,872,Image processing using ML,10
+May – Jul 2026,Canada,Canada Business Leaders' Pulse (BLP),May – Jun 2026,872,Robotics and autonomous vehicles,3.7
+May – Jul 2026,UK,UK Decision Maker Panel,May – Jul 2026,1964,Any AI Technology,87.94905
+May – Jul 2026,UK,UK Decision Maker Panel,May – Jul 2026,1964,Other,23.1092
+May – Jul 2026,UK,UK Decision Maker Panel,May – Jul 2026,1964,Data processing using ML,42.00483
+May – Jul 2026,UK,UK Decision Maker Panel,May – Jul 2026,1964,Visual content creation,43.19571
+May – Jul 2026,UK,UK Decision Maker Panel,May – Jul 2026,1964,Generative AI,82.10366
+May – Jul 2026,UK,UK Decision Maker Panel,May – Jul 2026,1964,Image processing using ML,32.07541
+May – Jul 2026,UK,UK Decision Maker Panel,May – Jul 2026,1964,Robotics and autonomous vehicles,10.4243
+May – Jul 2026,Germany,Germany Bundesbank Online Panel - Firms,Jul 2026,2303,Any AI Technology,77.85892
+May – Jul 2026,Germany,Germany Bundesbank Online Panel - Firms,Jul 2026,2303,Other,18.63771
+May – Jul 2026,Germany,Germany Bundesbank Online Panel - Firms,Jul 2026,2303,Data processing using ML,22.73627
+May – Jul 2026,Germany,Germany Bundesbank Online Panel - Firms,Jul 2026,2303,Visual content creation,32.67331
+May – Jul 2026,Germany,Germany Bundesbank Online Panel - Firms,Jul 2026,2303,Generative AI,69.73438
+May – Jul 2026,Germany,Germany Bundesbank Online Panel - Firms,Jul 2026,2303,Image processing using ML,17.17882
+May – Jul 2026,Germany,Germany Bundesbank Online Panel - Firms,Jul 2026,2303,Robotics and autonomous vehicles,4.16094
+May – Jul 2026,Australia,Australia Business Outlook Scenarios Survey,Jun 2026,908,Any AI Technology,68.3921
+May – Jul 2026,Australia,Australia Business Outlook Scenarios Survey,Jun 2026,908,Other,19.8238
+May – Jul 2026,Australia,Australia Business Outlook Scenarios Survey,Jun 2026,908,Data processing using ML,28.1938
+May – Jul 2026,Australia,Australia Business Outlook Scenarios Survey,Jun 2026,908,Visual content creation,24.5595
+May – Jul 2026,Australia,Australia Business Outlook Scenarios Survey,Jun 2026,908,Generative AI,38.2159
+May – Jul 2026,Australia,Australia Business Outlook Scenarios Survey,Jun 2026,908,Image processing using ML,17.0705
+May – Jul 2026,Australia,Australia Business Outlook Scenarios Survey,Jun 2026,908,Robotics and autonomous vehicles,6.9383
+May – Jul 2026,Mexico,Mexico Monthly Survey on Regional Economic Activity (EMAER),Jun 2026,1719,Any AI Technology,63.7
+May – Jul 2026,Mexico,Mexico Monthly Survey on Regional Economic Activity (EMAER),Jun 2026,1719,Other,8.4
+May – Jul 2026,Mexico,Mexico Monthly Survey on Regional Economic Activity (EMAER),Jun 2026,1719,Data processing using ML,36.1
+May – Jul 2026,Mexico,Mexico Monthly Survey on Regional Economic Activity (EMAER),Jun 2026,1719,Visual content creation,33.6
+May – Jul 2026,Mexico,Mexico Monthly Survey on Regional Economic Activity (EMAER),Jun 2026,1719,Generative AI,26.7
+May – Jul 2026,Mexico,Mexico Monthly Survey on Regional Economic Activity (EMAER),Jun 2026,1719,Image processing using ML,21.6
+May – Jul 2026,Mexico,Mexico Monthly Survey on Regional Economic Activity (EMAER),Jun 2026,1719,Robotics and autonomous vehicles,13.4
+May – Jul 2026,South Africa,South Africa Quarterly inflation expectations survey,May 2026,101,Any AI Technology,56.44
+May – Jul 2026,South Africa,South Africa Quarterly inflation expectations survey,May 2026,101,Other,23.76
+May – Jul 2026,South Africa,South Africa Quarterly inflation expectations survey,May 2026,101,Data processing using ML,23.76
+May – Jul 2026,South Africa,South Africa Quarterly inflation expectations survey,May 2026,101,Visual content creation,27.72
+May – Jul 2026,South Africa,South Africa Quarterly inflation expectations survey,May 2026,101,Generative AI,29.7
+May – Jul 2026,South Africa,South Africa Quarterly inflation expectations survey,May 2026,101,Image processing using ML,11.88
+May – Jul 2026,South Africa,South Africa Quarterly inflation expectations survey,May 2026,101,Robotics and autonomous vehicles,8.91
+May – Jul 2026,"All Firms (US, UK, Germany and Australia only)",Response-weighted average of the countries surveyed in all waves,May – Jul 2026,6187,Any AI Technology,82.45997313075803
+May – Jul 2026,"All Firms (US, UK, Germany and Australia only)",Response-weighted average of the countries surveyed in all waves,May – Jul 2026,6187,Other,23.120207746888635
+May – Jul 2026,"All Firms (US, UK, Germany and Australia only)",Response-weighted average of the countries surveyed in all waves,May – Jul 2026,6187,Data processing using ML,33.55718220947147
+May – Jul 2026,"All Firms (US, UK, Germany and Australia only)",Response-weighted average of the countries surveyed in all waves,May – Jul 2026,6187,Visual content creation,36.43010075480847
+May – Jul 2026,"All Firms (US, UK, Germany and Australia only)",Response-weighted average of the countries surveyed in all waves,May – Jul 2026,6187,Generative AI,71.97386497171489
+May – Jul 2026,"All Firms (US, UK, Germany and Australia only)",Response-weighted average of the countries surveyed in all waves,May – Jul 2026,6187,Image processing using ML,24.512258235008886
+May – Jul 2026,"All Firms (US, UK, Germany and Australia only)",Response-weighted average of the countries surveyed in all waves,May – Jul 2026,6187,Robotics and autonomous vehicles,7.6754398609988685

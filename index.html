@@ -75,6 +75,16 @@
           </button>
           <button
             class="tab-button"
+            id="tab-survey-questions"
+            data-figure-id="questions"
+            role="tab"
+            aria-selected="false"
+            type="button"
+          >
+            Survey Questions
+          </button>
+          <button
+            class="tab-button"
             id="tab-about"
             data-figure-id="about"
             role="tab"
@@ -107,24 +117,21 @@
         </p>
         <blockquote>
           <p>
-            <strong>Citation:</strong> Yotzov, I., J. M. Barrero, N. Bloom, P. Bunn, S. J.
-            Davis, K. M. Foster, A. Jalca, B. H. Meyer, P. Mizen, M. A. Navarrete, P. Smietanka,
+            <strong>Citation:</strong> Yotzov, I., J. M. Barrero, N. Bloom, P. Bunn, C. Chawla, S. J.
+            Davis, K. M. Foster, A. Jalca, B. H. Meyer, P. Mizen, M. A. Navarrete, S. Oh, P. Smietanka, K. Garcia Loredo, M. Reid,
             G. Thwaites and B. Z. Wang (2026), "Firm Data on AI", <em>NBER Working Paper</em>
             34836.
           </p>
         </blockquote>
         <p>
-          <strong>Working Paper:</strong> <a href="https://www.nber.org/papers/w34836" target="_blank" rel="noopener noreferrer">Firm Data on AI - Working Paper</a>
+          <strong>Working Paper (Updated October 2026):</strong> <a href="https://www.nber.org/papers/w34836" target="_blank" rel="noopener noreferrer">Firm Data on AI - Working Paper</a>
         </p>
         <p>
-          <strong>VoxEU Column:</strong> <a href="https://cepr.org/voxeu/columns/firms-predict-ai-productivity-boom-coming" target="_blank" rel="noopener noreferrer">Firms predict an AI productivity boom is coming</a>
+          <strong>VoxEU Column (March 2026):</strong> <a href="https://cepr.org/voxeu/columns/firms-predict-ai-productivity-boom-coming" target="_blank" rel="noopener noreferrer">Firms predict an AI productivity boom is coming</a>
         </p>   
         <p>
-          <strong>Underlying Data:</strong> <a href="https://bit.ly/3Zrvfs5" target="_blank" rel="noopener noreferrer">Firm Data on AI - Aggregated Data</a>
+          <strong>Underlying Data (October 2026):</strong> <a href="https://bit.ly/4B2zU5c" target="_blank" rel="noopener noreferrer">Firm Data on AI - Aggregated Data</a>
         </p>   
-        <p>
-          <strong>Slides:</strong> <a href="firm-data-ai-slides.pdf" target="_blank" rel="noopener noreferrer">Firm Data on AI - Slides</a>
-        </p>               
         <hr />
         <h2>Features</h2>
         <div class="table-wrapper">
@@ -163,6 +170,10 @@
                 </td>
               </tr>
               <tr>
+                <td><strong>Survey Questions</strong></td>
+                <td>Screenshots of the AI questions as asked in each country's survey</td>
+              </tr>
+              <tr>
                 <td><strong>About Us</strong></td>
                 <td>Information about the research team and surveys</td>
               </tr>
@@ -175,33 +186,36 @@
         </div>
       </section>
 
-      <section id="controlsSection" class="controls card">
-        <div id="technologyControl">
-          <label id="technologyLabel" for="technologySelect">Country comparison for technology</label>
-          <select id="technologySelect"></select>
-        </div>
-        <div id="countryControl">
-          <label id="countryLabel" for="countrySelect">Technology mix for country</label>
-          <select id="countrySelect"></select>
-        </div>
-      </section>
-
       <section id="periodControls" class="period-controls card" hidden>
         <p class="period-label">Impact horizon</p>
         <div id="periodButtons" class="period-buttons"></div>
       </section>
 
-      <section id="chartsSection" class="grid-layout">
+      <section id="chartsSection" class="grid-layout grid-layout--wave">
         <article class="card">
           <h2 id="comparisonTitle">Country Comparison</h2>
           <p class="chart-caption" id="comparisonCaption"></p>
+          <div id="comparisonPanelControl" class="panel-control" hidden>
+            <label id="comparisonPanelLabel" for="comparisonPanelSelect">Technology</label>
+            <select id="comparisonPanelSelect"></select>
+          </div>
           <div id="comparisonChart" class="bar-chart" role="img" aria-label="Country comparison chart"></div>
         </article>
 
         <article class="card">
           <h2 id="mixTitle">Technology Mix</h2>
           <p class="chart-caption" id="mixCaption"></p>
+          <div id="mixPanelControl" class="panel-control" hidden>
+            <label for="mixPanelSelect">Country</label>
+            <select id="mixPanelSelect"></select>
+          </div>
           <div id="mixChart" class="bar-chart" role="img" aria-label="Technology mix chart"></div>
+        </article>
+
+        <article id="changeCard" class="card">
+          <h2 id="changeTitle">Change Between Survey Waves</h2>
+          <p class="chart-caption" id="changeCaption"></p>
+          <div id="changeChart" class="bar-chart" role="img" aria-label="Change between survey waves chart"></div>
         </article>
       </section>
 
@@ -212,55 +226,71 @@
         </div>
       </section>
 
+      <section id="questionsSection" class="card" hidden>
+        <h2>Survey Questions</h2>
+        <p class="chart-caption">
+          The AI questions as they appear to respondents. Select a country to see its survey;
+          click a screenshot to open it at full size.
+        </p>
+        <div id="questionsCountryButtons" class="period-buttons" role="group" aria-label="Survey country"></div>
+        <p id="questionsSurveyName" class="questions-survey-name"></p>
+        <div id="questionsGrid" class="questions-grid"></div>
+      </section>
+
       <section id="aboutSection" class="about-layout" hidden>
         <article class="card">
           <h2>The Team</h2>
           <div class="about-placeholder">
-            <p><a href="https://www.iyotzov.com/" target="_blank" rel="noopener noreferrer">Ivan Yotzov</a> is a research economist at the Bank of England.</p>
             <p>
-              <a href="https://www.jmbarrero.com/" target="_blank" rel="noopener noreferrer">Jose Maria Barrero</a> is Associate Professor of Finance at
-              ITAM Business School.
+              <a href="https://www.iyotzov.com/" target="_blank" rel="noopener noreferrer">Ivan Yotzov</a> is a research economist at the Bank of England.
             </p>
             <p>
-              <a href="https://nbloom.people.stanford.edu/" target="_blank" rel="noopener noreferrer">Nicholas Bloom</a> is the William Eberle Professor
-              of Economics at Stanford University.
-            </p>
-            <p>Philip Bunn is a Senior Technical Advisor at the Bank of England.</p>
-            <p>
-              <a href="https://stevenjdavis.com/" target="_blank" rel="noopener noreferrer">Steven J. Davis</a> is the Thomas W. and Susan B. Ford
-              Senior Fellow and Director of Research at the Hoover Institution.
+              <a href="https://www.jmbarrero.com/" target="_blank" rel="noopener noreferrer">Jose Maria Barrero</a> is Associate Professor of Finance at ITAM Business School.
             </p>
             <p>
-              <a href="https://www.atlantafed.org/who-we-are/people/research/staff/kevin-foster" target="_blank" rel="noopener noreferrer">Kevin M. Foster</a>
-              is Survey Director at the Federal Reserve Bank of Atlanta.
+              <a href="https://nbloom.people.stanford.edu/" target="_blank" rel="noopener noreferrer">Nicholas Bloom</a> is the William Eberle Professor of Economics at Stanford University.
             </p>
             <p>
-              <a href="https://www.atlantafed.org/who-we-are/people/research/staff/aaron-jalca" target="_blank" rel="noopener noreferrer">Aaron Jalca</a>
-              is an Economic Research Analyst at the Federal Reserve Bank of Atlanta.
+              Philip Bunn is a Senior Technical Advisor at the Bank of England.
             </p>
             <p>
-              <a href="https://www.atlantafed.org/who-we-are/people/research/economists/brent-meyer" target="_blank" rel="noopener noreferrer">Brent H. Meyer</a>
-              is Vice President and Senior Economist at the Federeal Reserve Bank of Atlanta.
+              <a href="https://www.bankofcanada.ca/profile/chanya-chawla/" target="_blank" rel="noopener noreferrer">Chanya Chawla</a> is an Economist in the Survey and Economic Intelligence Division at the Bank of Canada.
             </p>
             <p>
-              <a href="https://sites.google.com/site/pdmizen/welcome" target="_blank" rel="noopener noreferrer">Paul Mizen</a> is a Professor of
-              Economics, King's College London.
+              <a href="https://stevenjdavis.com/" target="_blank" rel="noopener noreferrer">Steven J. Davis</a> is the Thomas W. and Susan B. Ford Senior Fellow and Director of Research at the Hoover Institution.
             </p>
             <p>
-              <a href="https://mnav-umd.github.io/" target="_blank" rel="noopener noreferrer">Michael A. Navarrete</a> is an Assistant Policy Adviser and
-              Economist at the Federal Reserve Bank of Atlanta.
+              <a href="https://www.atlantafed.org/who-we-are/people/research/staff/kevin-foster" target="_blank" rel="noopener noreferrer">Kevin M. Foster</a> is Survey Director at the Federal Reserve Bank of Atlanta.
             </p>
             <p>
-              <a href="https://sites.google.com/site/psmietanka/" target="_blank" rel="noopener noreferrer">Pawel Smietanka</a> is a Senior Economist at
-              the Deutsche Bundesbank.
+              <a href="https://www.atlantafed.org/who-we-are/people/research/staff/aaron-jalca" target="_blank" rel="noopener noreferrer">Aaron Jalca</a> is an Economic Research Analyst at the Federal Reserve Bank of Atlanta.
             </p>
             <p>
-              <a href="https://gregorythwaites.com/" target="_blank" rel="noopener noreferrer">Gregory Thwaites</a> is an Associate Professor of Economics,
-              University of Nottingham.
+              <a href="https://www.atlantafed.org/who-we-are/people/research/economists/brent-meyer" target="_blank" rel="noopener noreferrer">Brent H. Meyer</a> is Vice President and Senior Economist at the Federal Reserve Bank of Atlanta.
             </p>
             <p>
-              <a href="https://sites.google.com/site/benzhewang/introduction" target="_blank" rel="noopener noreferrer">Ben Zhe Wang</a> is an Associate
-              Professor at Macquarie University.
+              <a href="https://sites.google.com/site/pdmizen/welcome" target="_blank" rel="noopener noreferrer">Paul Mizen</a> is a Professor of Economics, King's College London.
+            </p>
+            <p>
+              <a href="https://mnav-umd.github.io/" target="_blank" rel="noopener noreferrer">Michael A. Navarrete</a> is an Assistant Policy Adviser and Economist at the Federal Reserve Bank of Atlanta.
+            </p>
+            <p>
+              <a href="https://www.linkedin.com/in/samil-oh-a72507249/" target="_blank" rel="noopener noreferrer">Samil Oh</a> is an Economist at Bank of Korea.
+            </p>
+            <p>
+              <a href="https://www.linkedin.com/in/katia-garcia-loredo-895b10179/" target="_blank" rel="noopener noreferrer">Katia Garcia Loredo</a> is Deputy Manager of Statistical Analysis at Banco de Mexico.
+            </p>
+            <p>
+              <a href="https://www.linkedin.com/in/monique-reid-34785857/" target="_blank" rel="noopener noreferrer">Monique Reid</a> is a Lead Economist at the South African Reserve Bank.
+            </p>
+            <p>
+              <a href="https://sites.google.com/site/psmietanka/" target="_blank" rel="noopener noreferrer">Pawel Smietanka</a> is a Senior Economist at the Deutsche Bundesbank.
+            </p>
+            <p>
+              <a href="https://gregorythwaites.com/" target="_blank" rel="noopener noreferrer">Gregory Thwaites</a> is an Associate Professor of Economics, University of Nottingham.
+            </p>
+            <p>
+              <a href="https://sites.google.com/site/benzhewang/introduction" target="_blank" rel="noopener noreferrer">Ben Zhe Wang</a> is an Associate Professor at Macquarie University.
             </p>
           </div>
         </article>
@@ -268,41 +298,25 @@
           <h2>The Surveys</h2>
           <div class="about-placeholder">
             <p>
-              <a
-                href="https://www.atlantafed.org/research-and-data/surveys/business-uncertainty"
-                target="_blank"
-                rel="noopener noreferrer"
-                >The Survey of Business Uncertainty (SBU)</a
-              >
-              is a monthly online survey of CEOs, CFOs and senior executives at US firms. It was launched
-              in 2014 and is run by the Federal Reserve Bank of Atlanta.
+              <a href="https://www.atlantafed.org/research-and-data/surveys/business-uncertainty" target="_blank" rel="noopener noreferrer">The Survey of Business Uncertainty (SBU)</a> is a monthly online survey of CEOs, CFOs and senior executives at US firms. It was launched in 2014 and is run by the Federal Reserve Bank of Atlanta.
             </p>
             <p>
-              <a href="https://decisionmakerpanel.co.uk/" target="_blank" rel="noopener noreferrer"
-                >The Decision Maker Panel (DMP)</a
-              >
-              is a monthly, online survey of UK businesses. The DMP was launched in 2016 and is run by the
-              Bank of England.
+              <a href="https://decisionmakerpanel.co.uk/" target="_blank" rel="noopener noreferrer">The Decision Maker Panel (DMP)</a> is a monthly, online survey of UK businesses. The DMP was launched in 2016 and is run by the Bank of England.
             </p>
             <p>
-              <a
-                href="https://www.bundesbank.de/en/bundesbank/research/rdsc/research-data/bop-f-618166"
-                target="_blank"
-                rel="noopener noreferrer"
-                >The Bundesbank Online Panel – Firms (BOP-F)</a
-              >
-              is an online survey of a representative panel of firms located in Germany and is run by the
-              Deutsche Bundesbank – Germany's central bank. The survey was first conducted in June 2020.
+              <a href="https://www.bundesbank.de/en/bundesbank/research/rdsc/research-data/bop-f-618166" target="_blank" rel="noopener noreferrer">The Bundesbank Online Panel – Firms (BOP-F)</a> is an online survey of a representative panel of firms located in Germany and is run by the Deutsche Bundesbank – Germany's central bank. The survey was first conducted in June 2020.
             </p>
             <p>
-              <a
-                href="https://www.mq.edu.au/macquarie-business-school/our-departments/department-of-economics/our-research/business-outlook-scenarios-survey-boss"
-                target="_blank"
-                rel="noopener noreferrer"
-                >The Business Outlook Scenarios Survey (BOSS)</a
-              >
-              is a monthly, online survey of Australian businesses. It was established in 2024 by Macquarie
-              University.
+              <a href="https://www.mq.edu.au/macquarie-business-school/our-departments/department-of-economics/our-research/business-outlook-scenarios-survey-boss" target="_blank" rel="noopener noreferrer">The Business Outlook Scenarios Survey (BOSS)</a> is a monthly, online survey of Australian businesses. It was established in 2024 by Macquarie University.
+            </p>
+            <p>
+              The <a href="https://www.bankofcanada.ca/2022/06/staff-discussion-paper-2022-14/" target="_blank" rel="noopener noreferrer">Business Leaders' Pulse (BLP)</a> is a monthly online survey of businesses in Canada run by the Bank of Canada. It was established in 2021.
+            </p>
+            <p>
+              The Monthly Survey on Regional Economic Activity (EMAER) is a monthly representative survey of establishments with more than 100 workers in Mexico. It was established in 2009 and is run by Banco de Mexico.
+            </p>
+            <p>
+              The <a href="https://www.ber.ac.za/documents/index/inflation-expectations" target="_blank" rel="noopener noreferrer">Quarterly inflation expectations survey</a> is conducted by the Bureau for Economic Research on behalf of the South African Reserve Bank. It was established in 2001.
             </p>
           </div>
         </article>
@@ -346,11 +360,14 @@
       </footer>
     </main>
 
+    <div id="chartTooltip" class="chart-tooltip" role="tooltip" hidden></div>
+
     <script src="data/current-ai-adoption-data.js"></script>
     <script src="data/expected-ai-adoption-data.js"></script>
     <script src="data/personal-ai-use-data.js"></script>
     <script src="data/employment-impacts-data.js"></script>
     <script src="data/productivity-impacts-data.js"></script>
+    <script src="data/survey-questions-data.js"></script>
     <script src="app.js"></script>
   </body>
 </html>

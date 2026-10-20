@@ -1,13 +1,181 @@
-Period,Impact Category,All Firms,US,UK,Germany,Australia
-Impacts over last 3 years,Large negative impact reducing employment by >5%,0.9268578076525338,1.6,1.2,0.46,0.6645
-Impacts over last 3 years,Small negative impact reducing employment by <5%,4.134996001378835,4.8,6.57,1.47,4.9834
-Impacts over last 3 years,No impact,90.52406938986556,89.2,88.89,95,81.3953
-Impacts over last 3 years,Small positive impact increasing employment by <5%,3.217072871423647,3.7,2.79,1.7,9.4684
-Impacts over last 3 years,Large positive impact increasing employment by >5%,1.2106337125129265,0.8,0.54,1.37,3.4884
-Impacts over last 3 years,Cumulative impact over past 3 years (%),-0.0016648853843502405,-0.0875,-0.14400000000000002,0.07400000000000001,0.3239175
-Expected impacts over next 3 years,Large negative impact reducing employment by >5%,8.455095572207084,12.1,13.66,3.19,5.3156
-Expected impacts over next 3 years,Small negative impact reducing employment by <5%,18.337399761580382,31.1,27.14,6.98,11.2957
-Expected impacts over next 3 years,No impact,62.64174335831063,41.9,50.69,80.95,66.9435
-Expected impacts over next 3 years,Small positive impact increasing employment by <5%,7.619689339237056,12.4,5.95,6.29,10.1329
-Expected impacts over next 3 years,Large positive impact increasing employment by >5%,2.9421738079019075,2.5,2.56,2.58,6.3123
-Expected impacts over next 3 years,Cumulative impact over next 3 years (%),-0.6814118928814714,-1.1875,-1.3622500000000002,-0.06299999999999997,0.04568250000000013
+Horizon,Wave,Country,Survey,Fieldwork,Number of Survey Responses,Impact Category,Value
+Impacts over last 3 years,Nov 2025 – Jan 2026,All Firms,Average across all firms in the surveyed countries,Nov 2025 – Jan 2026,5802,"Large negative impact, reducing employment by >5% (%)",0.9268578076525338
+Impacts over last 3 years,Nov 2025 – Jan 2026,All Firms,Average across all firms in the surveyed countries,Nov 2025 – Jan 2026,5802,"Small negative impact, reducing employment by <5% (%)",4.134996001378835
+Impacts over last 3 years,Nov 2025 – Jan 2026,All Firms,Average across all firms in the surveyed countries,Nov 2025 – Jan 2026,5802,No impact (%),90.52406938986556
+Impacts over last 3 years,Nov 2025 – Jan 2026,All Firms,Average across all firms in the surveyed countries,Nov 2025 – Jan 2026,5802,"Small positive impact, increasing employment by <5% (%)",3.217072871423647
+Impacts over last 3 years,Nov 2025 – Jan 2026,All Firms,Average across all firms in the surveyed countries,Nov 2025 – Jan 2026,5802,"Large positive impact, increasing employment by >5% (%)",1.2106337125129265
+Impacts over last 3 years,Nov 2025 – Jan 2026,All Firms,Average across all firms in the surveyed countries,Nov 2025 – Jan 2026,5802,Cumulative impact over past 3 years (%),-0.0016648853843502405
+Impacts over last 3 years,Nov 2025 – Jan 2026,US,US Survey of Business Uncertainty,Nov 2025,988,"Large negative impact, reducing employment by >5% (%)",1.6
+Impacts over last 3 years,Nov 2025 – Jan 2026,US,US Survey of Business Uncertainty,Nov 2025,988,"Small negative impact, reducing employment by <5% (%)",4.8
+Impacts over last 3 years,Nov 2025 – Jan 2026,US,US Survey of Business Uncertainty,Nov 2025,988,No impact (%),89.2
+Impacts over last 3 years,Nov 2025 – Jan 2026,US,US Survey of Business Uncertainty,Nov 2025,988,"Small positive impact, increasing employment by <5% (%)",3.7
+Impacts over last 3 years,Nov 2025 – Jan 2026,US,US Survey of Business Uncertainty,Nov 2025,988,"Large positive impact, increasing employment by >5% (%)",0.8
+Impacts over last 3 years,Nov 2025 – Jan 2026,US,US Survey of Business Uncertainty,Nov 2025,988,Cumulative impact over past 3 years (%),-0.0875
+Impacts over last 3 years,Nov 2025 – Jan 2026,UK,UK Decision Maker Panel,Nov 2025 – Jan 2026,1972,"Large negative impact, reducing employment by >5% (%)",1.2
+Impacts over last 3 years,Nov 2025 – Jan 2026,UK,UK Decision Maker Panel,Nov 2025 – Jan 2026,1972,"Small negative impact, reducing employment by <5% (%)",6.57
+Impacts over last 3 years,Nov 2025 – Jan 2026,UK,UK Decision Maker Panel,Nov 2025 – Jan 2026,1972,No impact (%),88.89
+Impacts over last 3 years,Nov 2025 – Jan 2026,UK,UK Decision Maker Panel,Nov 2025 – Jan 2026,1972,"Small positive impact, increasing employment by <5% (%)",2.79
+Impacts over last 3 years,Nov 2025 – Jan 2026,UK,UK Decision Maker Panel,Nov 2025 – Jan 2026,1972,"Large positive impact, increasing employment by >5% (%)",0.54
+Impacts over last 3 years,Nov 2025 – Jan 2026,UK,UK Decision Maker Panel,Nov 2025 – Jan 2026,1972,Cumulative impact over past 3 years (%),-0.14400000000000002
+Impacts over last 3 years,Nov 2025 – Jan 2026,Germany,Germany Bundesbank Online Panel - Firms,Jan 2026,2240,"Large negative impact, reducing employment by >5% (%)",0.46
+Impacts over last 3 years,Nov 2025 – Jan 2026,Germany,Germany Bundesbank Online Panel - Firms,Jan 2026,2240,"Small negative impact, reducing employment by <5% (%)",1.47
+Impacts over last 3 years,Nov 2025 – Jan 2026,Germany,Germany Bundesbank Online Panel - Firms,Jan 2026,2240,No impact (%),95
+Impacts over last 3 years,Nov 2025 – Jan 2026,Germany,Germany Bundesbank Online Panel - Firms,Jan 2026,2240,"Small positive impact, increasing employment by <5% (%)",1.7
+Impacts over last 3 years,Nov 2025 – Jan 2026,Germany,Germany Bundesbank Online Panel - Firms,Jan 2026,2240,"Large positive impact, increasing employment by >5% (%)",1.37
+Impacts over last 3 years,Nov 2025 – Jan 2026,Germany,Germany Bundesbank Online Panel - Firms,Jan 2026,2240,Cumulative impact over past 3 years (%),0.07400000000000001
+Impacts over last 3 years,Nov 2025 – Jan 2026,Australia,Australia Business Outlook Scenarios Survey,Dec 2025,602,"Large negative impact, reducing employment by >5% (%)",0.6645
+Impacts over last 3 years,Nov 2025 – Jan 2026,Australia,Australia Business Outlook Scenarios Survey,Dec 2025,602,"Small negative impact, reducing employment by <5% (%)",4.9834
+Impacts over last 3 years,Nov 2025 – Jan 2026,Australia,Australia Business Outlook Scenarios Survey,Dec 2025,602,No impact (%),81.3953
+Impacts over last 3 years,Nov 2025 – Jan 2026,Australia,Australia Business Outlook Scenarios Survey,Dec 2025,602,"Small positive impact, increasing employment by <5% (%)",9.4684
+Impacts over last 3 years,Nov 2025 – Jan 2026,Australia,Australia Business Outlook Scenarios Survey,Dec 2025,602,"Large positive impact, increasing employment by >5% (%)",3.4884
+Impacts over last 3 years,Nov 2025 – Jan 2026,Australia,Australia Business Outlook Scenarios Survey,Dec 2025,602,Cumulative impact over past 3 years (%),0.3239175
+Impacts over last 3 years,Nov 2025 – Jan 2026,"All Firms (US, UK and Australia only)",Response-weighted average of the countries surveyed in all waves,Nov 2025 – Jan 2026,3562,"Large negative impact, reducing employment by >5% (%)",1.2204460976979226
+Impacts over last 3 years,Nov 2025 – Jan 2026,"All Firms (US, UK and Australia only)",Response-weighted average of the countries surveyed in all waves,Nov 2025 – Jan 2026,3562,"Small negative impact, reducing employment by <5% (%)",5.81090589556429
+Impacts over last 3 years,Nov 2025 – Jan 2026,"All Firms (US, UK and Australia only)",Response-weighted average of the countries surveyed in all waves,Nov 2025 – Jan 2026,3562,No impact (%),87.70933481190342
+Impacts over last 3 years,Nov 2025 – Jan 2026,"All Firms (US, UK and Australia only)",Response-weighted average of the countries surveyed in all waves,Nov 2025 – Jan 2026,3562,"Small positive impact, increasing employment by <5% (%)",4.171099606962381
+Impacts over last 3 years,Nov 2025 – Jan 2026,"All Firms (US, UK and Australia only)",Response-weighted average of the countries surveyed in all waves,Nov 2025 – Jan 2026,3562,"Large positive impact, increasing employment by >5% (%)",1.110414598540146
+Impacts over last 3 years,Nov 2025 – Jan 2026,"All Firms (US, UK and Australia only)",Response-weighted average of the countries surveyed in all waves,Nov 2025 – Jan 2026,3562,Cumulative impact over past 3 years (%),-0.04924751965188096
+Impacts over last 3 years,May – Jul 2026,All Firms,Average across all firms in the surveyed countries,May – Jul 2026,8744,"Large negative impact, reducing employment by >5% (%)",1.1837397072278133
+Impacts over last 3 years,May – Jul 2026,All Firms,Average across all firms in the surveyed countries,May – Jul 2026,8744,"Small negative impact, reducing employment by <5% (%)",5.032369441903019
+Impacts over last 3 years,May – Jul 2026,All Firms,Average across all firms in the surveyed countries,May – Jul 2026,8744,No impact (%),86.57333183897529
+Impacts over last 3 years,May – Jul 2026,All Firms,Average across all firms in the surveyed countries,May – Jul 2026,8744,"Small positive impact, increasing employment by <5% (%)",5.416494190301921
+Impacts over last 3 years,May – Jul 2026,All Firms,Average across all firms in the surveyed countries,May – Jul 2026,8744,"Large positive impact, increasing employment by >5% (%)",1.7940648215919488
+Impacts over last 3 years,May – Jul 2026,All Firms,Average across all firms in the surveyed countries,May – Jul 2026,8744,Cumulative impact over past 3 years (%),0.05537750228728272
+Impacts over last 3 years,May – Jul 2026,US,US Survey of Business Uncertainty,Jun 2026,974,"Large negative impact, reducing employment by >5% (%)",0.3
+Impacts over last 3 years,May – Jul 2026,US,US Survey of Business Uncertainty,Jun 2026,974,"Small negative impact, reducing employment by <5% (%)",4.6
+Impacts over last 3 years,May – Jul 2026,US,US Survey of Business Uncertainty,Jun 2026,974,No impact (%),88.2
+Impacts over last 3 years,May – Jul 2026,US,US Survey of Business Uncertainty,Jun 2026,974,"Small positive impact, increasing employment by <5% (%)",5.6
+Impacts over last 3 years,May – Jul 2026,US,US Survey of Business Uncertainty,Jun 2026,974,"Large positive impact, increasing employment by >5% (%)",1.3
+Impacts over last 3 years,May – Jul 2026,US,US Survey of Business Uncertainty,Jun 2026,974,Cumulative impact over past 3 years (%),0.1
+Impacts over last 3 years,May – Jul 2026,Canada,Canada Business Leaders' Pulse (BLP),May – Jun 2026,799,"Large negative impact, reducing employment by >5% (%)",1.5018773466833542
+Impacts over last 3 years,May – Jul 2026,Canada,Canada Business Leaders' Pulse (BLP),May – Jun 2026,799,"Small negative impact, reducing employment by <5% (%)",4.130162703379224
+Impacts over last 3 years,May – Jul 2026,Canada,Canada Business Leaders' Pulse (BLP),May – Jun 2026,799,No impact (%),88.36045056320401
+Impacts over last 3 years,May – Jul 2026,Canada,Canada Business Leaders' Pulse (BLP),May – Jun 2026,799,"Small positive impact, increasing employment by <5% (%)",3.504380475594493
+Impacts over last 3 years,May – Jul 2026,Canada,Canada Business Leaders' Pulse (BLP),May – Jun 2026,799,"Large positive impact, increasing employment by >5% (%)",2.5031289111389237
+Impacts over last 3 years,May – Jul 2026,Canada,Canada Business Leaders' Pulse (BLP),May – Jun 2026,799,Cumulative impact over past 3 years (%),0.059449311639549446
+Impacts over last 3 years,May – Jul 2026,UK,UK Decision Maker Panel,May – Jul 2026,1988,"Large negative impact, reducing employment by >5% (%)",0.91
+Impacts over last 3 years,May – Jul 2026,UK,UK Decision Maker Panel,May – Jul 2026,1988,"Small negative impact, reducing employment by <5% (%)",6.97
+Impacts over last 3 years,May – Jul 2026,UK,UK Decision Maker Panel,May – Jul 2026,1988,No impact (%),87.54
+Impacts over last 3 years,May – Jul 2026,UK,UK Decision Maker Panel,May – Jul 2026,1988,"Small positive impact, increasing employment by <5% (%)",3.87
+Impacts over last 3 years,May – Jul 2026,UK,UK Decision Maker Panel,May – Jul 2026,1988,"Large positive impact, increasing employment by >5% (%)",0.71
+Impacts over last 3 years,May – Jul 2026,UK,UK Decision Maker Panel,May – Jul 2026,1988,Cumulative impact over past 3 years (%),-0.0925
+Impacts over last 3 years,May – Jul 2026,Germany,Germany Bundesbank Online Panel - Firms,Jan 2026,2240,"Large negative impact, reducing employment by >5% (%)",0.46
+Impacts over last 3 years,May – Jul 2026,Germany,Germany Bundesbank Online Panel - Firms,Jan 2026,2240,"Small negative impact, reducing employment by <5% (%)",1.47
+Impacts over last 3 years,May – Jul 2026,Germany,Germany Bundesbank Online Panel - Firms,Jan 2026,2240,No impact (%),95
+Impacts over last 3 years,May – Jul 2026,Germany,Germany Bundesbank Online Panel - Firms,Jan 2026,2240,"Small positive impact, increasing employment by <5% (%)",1.7
+Impacts over last 3 years,May – Jul 2026,Germany,Germany Bundesbank Online Panel - Firms,Jan 2026,2240,"Large positive impact, increasing employment by >5% (%)",1.37
+Impacts over last 3 years,May – Jul 2026,Germany,Germany Bundesbank Online Panel - Firms,Jan 2026,2240,Cumulative impact over past 3 years (%),0.07400000000000001
+Impacts over last 3 years,May – Jul 2026,Australia,Australia Business Outlook Scenarios Survey,Jun 2026,908,"Large negative impact, reducing employment by >5% (%)",4.185
+Impacts over last 3 years,May – Jul 2026,Australia,Australia Business Outlook Scenarios Survey,Jun 2026,908,"Small negative impact, reducing employment by <5% (%)",8.1498
+Impacts over last 3 years,May – Jul 2026,Australia,Australia Business Outlook Scenarios Survey,Jun 2026,908,No impact (%),74.3392
+Impacts over last 3 years,May – Jul 2026,Australia,Australia Business Outlook Scenarios Survey,Jun 2026,908,"Small positive impact, increasing employment by <5% (%)",9.9119
+Impacts over last 3 years,May – Jul 2026,Australia,Australia Business Outlook Scenarios Survey,Jun 2026,908,"Large positive impact, increasing employment by >5% (%)",3.4141
+Impacts over last 3 years,May – Jul 2026,Australia,Australia Business Outlook Scenarios Survey,Jun 2026,908,Cumulative impact over past 3 years (%),-0.013765000000000001
+Impacts over last 3 years,May – Jul 2026,Mexico,Mexico Monthly Survey on Regional Economic Activity (EMAER),Jun 2026,1719,"Large negative impact, reducing employment by >5% (%)",1
+Impacts over last 3 years,May – Jul 2026,Mexico,Mexico Monthly Survey on Regional Economic Activity (EMAER),Jun 2026,1719,"Small negative impact, reducing employment by <5% (%)",6.5
+Impacts over last 3 years,May – Jul 2026,Mexico,Mexico Monthly Survey on Regional Economic Activity (EMAER),Jun 2026,1719,No impact (%),79.5
+Impacts over last 3 years,May – Jul 2026,Mexico,Mexico Monthly Survey on Regional Economic Activity (EMAER),Jun 2026,1719,"Small positive impact, increasing employment by <5% (%)",10.3
+Impacts over last 3 years,May – Jul 2026,Mexico,Mexico Monthly Survey on Regional Economic Activity (EMAER),Jun 2026,1719,"Large positive impact, increasing employment by >5% (%)",2.7
+Impacts over last 3 years,May – Jul 2026,Mexico,Mexico Monthly Survey on Regional Economic Activity (EMAER),Jun 2026,1719,Cumulative impact over past 3 years (%),0.2225
+Impacts over last 3 years,May – Jul 2026,South Africa,South Africa Quarterly inflation expectations survey,May 2026,116,"Large negative impact, reducing employment by >5% (%)",4.31
+Impacts over last 3 years,May – Jul 2026,South Africa,South Africa Quarterly inflation expectations survey,May 2026,116,"Small negative impact, reducing employment by <5% (%)",4.31
+Impacts over last 3 years,May – Jul 2026,South Africa,South Africa Quarterly inflation expectations survey,May 2026,116,No impact (%),81.9
+Impacts over last 3 years,May – Jul 2026,South Africa,South Africa Quarterly inflation expectations survey,May 2026,116,"Small positive impact, increasing employment by <5% (%)",7.76
+Impacts over last 3 years,May – Jul 2026,South Africa,South Africa Quarterly inflation expectations survey,May 2026,116,"Large positive impact, increasing employment by >5% (%)",1.72
+Impacts over last 3 years,May – Jul 2026,South Africa,South Africa Quarterly inflation expectations survey,May 2026,116,Cumulative impact over past 3 years (%),-0.10799999999999996
+Impacts over last 3 years,May – Jul 2026,"All Firms (US, UK and Australia only)",Response-weighted average of the countries surveyed in all waves,May – Jul 2026,3870,"Large negative impact, reducing employment by >5% (%)",1.52487338501292
+Impacts over last 3 years,May – Jul 2026,"All Firms (US, UK and Australia only)",Response-weighted average of the countries surveyed in all waves,May – Jul 2026,3870,"Small negative impact, reducing employment by <5% (%)",6.650330335917312
+Impacts over last 3 years,May – Jul 2026,"All Firms (US, UK and Australia only)",Response-weighted average of the countries surveyed in all waves,May – Jul 2026,3870,No impact (%),84.60886656330749
+Impacts over last 3 years,May – Jul 2026,"All Firms (US, UK and Australia only)",Response-weighted average of the countries surveyed in all waves,May – Jul 2026,3870,"Small positive impact, increasing employment by <5% (%)",5.72298842377261
+Impacts over last 3 years,May – Jul 2026,"All Firms (US, UK and Australia only)",Response-weighted average of the countries surveyed in all waves,May – Jul 2026,3870,"Large positive impact, increasing employment by >5% (%)",1.4929412919896643
+Impacts over last 3 years,May – Jul 2026,"All Firms (US, UK and Australia only)",Response-weighted average of the countries surveyed in all waves,May – Jul 2026,3870,Cumulative impact over past 3 years (%),-0.02557845478036175
+Expected impacts over next 3 years,Nov 2025 – Jan 2026,All Firms,Average across all firms in the surveyed countries,Nov 2025 – Jan 2026,5872,"Large negative impact, reducing employment by >5% (%)",8.455095572207084
+Expected impacts over next 3 years,Nov 2025 – Jan 2026,All Firms,Average across all firms in the surveyed countries,Nov 2025 – Jan 2026,5872,"Small negative impact, reducing employment by <5% (%)",18.337399761580382
+Expected impacts over next 3 years,Nov 2025 – Jan 2026,All Firms,Average across all firms in the surveyed countries,Nov 2025 – Jan 2026,5872,No impact (%),62.64174335831063
+Expected impacts over next 3 years,Nov 2025 – Jan 2026,All Firms,Average across all firms in the surveyed countries,Nov 2025 – Jan 2026,5872,"Small positive impact, increasing employment by <5% (%)",7.619689339237056
+Expected impacts over next 3 years,Nov 2025 – Jan 2026,All Firms,Average across all firms in the surveyed countries,Nov 2025 – Jan 2026,5872,"Large positive impact, increasing employment by >5% (%)",2.9421738079019075
+Expected impacts over next 3 years,Nov 2025 – Jan 2026,All Firms,Average across all firms in the surveyed countries,Nov 2025 – Jan 2026,5872,Cumulative impact over next 3 years (%),-0.6814118928814714
+Expected impacts over next 3 years,Nov 2025 – Jan 2026,US,US Survey of Business Uncertainty,Nov 2025,1009,"Large negative impact, reducing employment by >5% (%)",12.1
+Expected impacts over next 3 years,Nov 2025 – Jan 2026,US,US Survey of Business Uncertainty,Nov 2025,1009,"Small negative impact, reducing employment by <5% (%)",31.1
+Expected impacts over next 3 years,Nov 2025 – Jan 2026,US,US Survey of Business Uncertainty,Nov 2025,1009,No impact (%),41.9
+Expected impacts over next 3 years,Nov 2025 – Jan 2026,US,US Survey of Business Uncertainty,Nov 2025,1009,"Small positive impact, increasing employment by <5% (%)",12.4
+Expected impacts over next 3 years,Nov 2025 – Jan 2026,US,US Survey of Business Uncertainty,Nov 2025,1009,"Large positive impact, increasing employment by >5% (%)",2.5
+Expected impacts over next 3 years,Nov 2025 – Jan 2026,US,US Survey of Business Uncertainty,Nov 2025,1009,Cumulative impact over next 3 years (%),-1.1875
+Expected impacts over next 3 years,Nov 2025 – Jan 2026,UK,UK Decision Maker Panel,Nov 2025 – Jan 2026,1972,"Large negative impact, reducing employment by >5% (%)",13.66
+Expected impacts over next 3 years,Nov 2025 – Jan 2026,UK,UK Decision Maker Panel,Nov 2025 – Jan 2026,1972,"Small negative impact, reducing employment by <5% (%)",27.14
+Expected impacts over next 3 years,Nov 2025 – Jan 2026,UK,UK Decision Maker Panel,Nov 2025 – Jan 2026,1972,No impact (%),50.69
+Expected impacts over next 3 years,Nov 2025 – Jan 2026,UK,UK Decision Maker Panel,Nov 2025 – Jan 2026,1972,"Small positive impact, increasing employment by <5% (%)",5.95
+Expected impacts over next 3 years,Nov 2025 – Jan 2026,UK,UK Decision Maker Panel,Nov 2025 – Jan 2026,1972,"Large positive impact, increasing employment by >5% (%)",2.56
+Expected impacts over next 3 years,Nov 2025 – Jan 2026,UK,UK Decision Maker Panel,Nov 2025 – Jan 2026,1972,Cumulative impact over next 3 years (%),-1.3622500000000002
+Expected impacts over next 3 years,Nov 2025 – Jan 2026,Germany,Germany Bundesbank Online Panel - Firms,Jan 2026,2289,"Large negative impact, reducing employment by >5% (%)",3.19
+Expected impacts over next 3 years,Nov 2025 – Jan 2026,Germany,Germany Bundesbank Online Panel - Firms,Jan 2026,2289,"Small negative impact, reducing employment by <5% (%)",6.98
+Expected impacts over next 3 years,Nov 2025 – Jan 2026,Germany,Germany Bundesbank Online Panel - Firms,Jan 2026,2289,No impact (%),80.95
+Expected impacts over next 3 years,Nov 2025 – Jan 2026,Germany,Germany Bundesbank Online Panel - Firms,Jan 2026,2289,"Small positive impact, increasing employment by <5% (%)",6.29
+Expected impacts over next 3 years,Nov 2025 – Jan 2026,Germany,Germany Bundesbank Online Panel - Firms,Jan 2026,2289,"Large positive impact, increasing employment by >5% (%)",2.58
+Expected impacts over next 3 years,Nov 2025 – Jan 2026,Germany,Germany Bundesbank Online Panel - Firms,Jan 2026,2289,Cumulative impact over next 3 years (%),-0.06299999999999997
+Expected impacts over next 3 years,Nov 2025 – Jan 2026,Australia,Australia Business Outlook Scenarios Survey,Dec 2025,602,"Large negative impact, reducing employment by >5% (%)",5.3156
+Expected impacts over next 3 years,Nov 2025 – Jan 2026,Australia,Australia Business Outlook Scenarios Survey,Dec 2025,602,"Small negative impact, reducing employment by <5% (%)",11.2957
+Expected impacts over next 3 years,Nov 2025 – Jan 2026,Australia,Australia Business Outlook Scenarios Survey,Dec 2025,602,No impact (%),66.9435
+Expected impacts over next 3 years,Nov 2025 – Jan 2026,Australia,Australia Business Outlook Scenarios Survey,Dec 2025,602,"Small positive impact, increasing employment by <5% (%)",10.1329
+Expected impacts over next 3 years,Nov 2025 – Jan 2026,Australia,Australia Business Outlook Scenarios Survey,Dec 2025,602,"Large positive impact, increasing employment by >5% (%)",6.3123
+Expected impacts over next 3 years,Nov 2025 – Jan 2026,Australia,Australia Business Outlook Scenarios Survey,Dec 2025,602,Cumulative impact over next 3 years (%),0.04568250000000013
+Expected impacts over next 3 years,Nov 2025 – Jan 2026,"All Firms (US, UK and Australia only)",Response-weighted average of the countries surveyed in all waves,Nov 2025 – Jan 2026,3583,"Large negative impact, reducing employment by >5% (%)",11.81870253977114
+Expected impacts over next 3 years,Nov 2025 – Jan 2026,"All Firms (US, UK and Australia only)",Response-weighted average of the countries surveyed in all waves,Nov 2025 – Jan 2026,3583,"Small negative impact, reducing employment by <5% (%)",25.59307602567681
+Expected impacts over next 3 years,Nov 2025 – Jan 2026,"All Firms (US, UK and Australia only)",Response-weighted average of the countries surveyed in all waves,Nov 2025 – Jan 2026,3583,No impact (%),50.94551130337705
+Expected impacts over next 3 years,Nov 2025 – Jan 2026,"All Firms (US, UK and Australia only)",Response-weighted average of the countries surveyed in all waves,Nov 2025 – Jan 2026,3583,"Small positive impact, increasing employment by <5% (%)",8.469161540608429
+Expected impacts over next 3 years,Nov 2025 – Jan 2026,"All Firms (US, UK and Australia only)",Response-weighted average of the countries surveyed in all waves,Nov 2025 – Jan 2026,3583,"Large positive impact, increasing employment by >5% (%)",3.1735485905665644
+Expected impacts over next 3 years,Nov 2025 – Jan 2026,"All Firms (US, UK and Australia only)",Response-weighted average of the countries surveyed in all waves,Nov 2025 – Jan 2026,3583,Cumulative impact over next 3 years (%),-1.0764844083170528
+Expected impacts over next 3 years,May – Jul 2026,All Firms,Average across all firms in the surveyed countries,May – Jul 2026,8869,"Large negative impact, reducing employment by >5% (%)",7.7896725673694895
+Expected impacts over next 3 years,May – Jul 2026,All Firms,Average across all firms in the surveyed countries,May – Jul 2026,8869,"Small negative impact, reducing employment by <5% (%)",19.58038795805615
+Expected impacts over next 3 years,May – Jul 2026,All Firms,Average across all firms in the surveyed countries,May – Jul 2026,8869,No impact (%),56.74974472883076
+Expected impacts over next 3 years,May – Jul 2026,All Firms,Average across all firms in the surveyed countries,May – Jul 2026,8869,"Small positive impact, increasing employment by <5% (%)",10.28794141391363
+Expected impacts over next 3 years,May – Jul 2026,All Firms,Average across all firms in the surveyed countries,May – Jul 2026,8869,"Large positive impact, increasing employment by >5% (%)",5.572504769421581
+Expected impacts over next 3 years,May – Jul 2026,All Firms,Average across all firms in the surveyed countries,May – Jul 2026,8869,Cumulative impact over next 3 years (%),-0.39859874844965604
+Expected impacts over next 3 years,May – Jul 2026,US,US Survey of Business Uncertainty,Jun 2026,1030,"Large negative impact, reducing employment by >5% (%)",12
+Expected impacts over next 3 years,May – Jul 2026,US,US Survey of Business Uncertainty,Jun 2026,1030,"Small negative impact, reducing employment by <5% (%)",36.3
+Expected impacts over next 3 years,May – Jul 2026,US,US Survey of Business Uncertainty,Jun 2026,1030,No impact (%),37.5
+Expected impacts over next 3 years,May – Jul 2026,US,US Survey of Business Uncertainty,Jun 2026,1030,"Small positive impact, increasing employment by <5% (%)",10.4
+Expected impacts over next 3 years,May – Jul 2026,US,US Survey of Business Uncertainty,Jun 2026,1030,"Large positive impact, increasing employment by >5% (%)",3.8
+Expected impacts over next 3 years,May – Jul 2026,US,US Survey of Business Uncertainty,Jun 2026,1030,Cumulative impact over next 3 years (%),-1.2625
+Expected impacts over next 3 years,May – Jul 2026,Canada,Canada Business Leaders' Pulse (BLP),May – Jun 2026,841,"Large negative impact, reducing employment by >5% (%)",6.658739595719382
+Expected impacts over next 3 years,May – Jul 2026,Canada,Canada Business Leaders' Pulse (BLP),May – Jun 2026,841,"Small negative impact, reducing employment by <5% (%)",19.500594530321045
+Expected impacts over next 3 years,May – Jul 2026,Canada,Canada Business Leaders' Pulse (BLP),May – Jun 2026,841,No impact (%),54.4589774078478
+Expected impacts over next 3 years,May – Jul 2026,Canada,Canada Business Leaders' Pulse (BLP),May – Jun 2026,841,"Small positive impact, increasing employment by <5% (%)",10.93935790725327
+Expected impacts over next 3 years,May – Jul 2026,Canada,Canada Business Leaders' Pulse (BLP),May – Jun 2026,841,"Large positive impact, increasing employment by >5% (%)",8.442330558858501
+Expected impacts over next 3 years,May – Jul 2026,Canada,Canada Business Leaders' Pulse (BLP),May – Jun 2026,841,Cumulative impact over next 3 years (%),-0.08026159334126057
+Expected impacts over next 3 years,May – Jul 2026,UK,UK Decision Maker Panel,May – Jul 2026,1964,"Large negative impact, reducing employment by >5% (%)",12.1
+Expected impacts over next 3 years,May – Jul 2026,UK,UK Decision Maker Panel,May – Jul 2026,1964,"Small negative impact, reducing employment by <5% (%)",34.78
+Expected impacts over next 3 years,May – Jul 2026,UK,UK Decision Maker Panel,May – Jul 2026,1964,No impact (%),40.75
+Expected impacts over next 3 years,May – Jul 2026,UK,UK Decision Maker Panel,May – Jul 2026,1964,"Small positive impact, increasing employment by <5% (%)",9.29
+Expected impacts over next 3 years,May – Jul 2026,UK,UK Decision Maker Panel,May – Jul 2026,1964,"Large positive impact, increasing employment by >5% (%)",3.09
+Expected impacts over next 3 years,May – Jul 2026,UK,UK Decision Maker Panel,May – Jul 2026,1964,Cumulative impact over next 3 years (%),-1.3130000000000002
+Expected impacts over next 3 years,May – Jul 2026,Germany,Germany Bundesbank Online Panel - Firms,Jan 2026,2289,"Large negative impact, reducing employment by >5% (%)",3.19
+Expected impacts over next 3 years,May – Jul 2026,Germany,Germany Bundesbank Online Panel - Firms,Jan 2026,2289,"Small negative impact, reducing employment by <5% (%)",6.98
+Expected impacts over next 3 years,May – Jul 2026,Germany,Germany Bundesbank Online Panel - Firms,Jan 2026,2289,No impact (%),80.95
+Expected impacts over next 3 years,May – Jul 2026,Germany,Germany Bundesbank Online Panel - Firms,Jan 2026,2289,"Small positive impact, increasing employment by <5% (%)",6.29
+Expected impacts over next 3 years,May – Jul 2026,Germany,Germany Bundesbank Online Panel - Firms,Jan 2026,2289,"Large positive impact, increasing employment by >5% (%)",2.58
+Expected impacts over next 3 years,May – Jul 2026,Germany,Germany Bundesbank Online Panel - Firms,Jan 2026,2289,Cumulative impact over next 3 years (%),-0.06299999999999997
+Expected impacts over next 3 years,May – Jul 2026,Australia,Australia Business Outlook Scenarios Survey,Jun 2026,908,"Large negative impact, reducing employment by >5% (%)",14.207
+Expected impacts over next 3 years,May – Jul 2026,Australia,Australia Business Outlook Scenarios Survey,Jun 2026,908,"Small negative impact, reducing employment by <5% (%)",14.6476
+Expected impacts over next 3 years,May – Jul 2026,Australia,Australia Business Outlook Scenarios Survey,Jun 2026,908,No impact (%),51.652
+Expected impacts over next 3 years,May – Jul 2026,Australia,Australia Business Outlook Scenarios Survey,Jun 2026,908,"Small positive impact, increasing employment by <5% (%)",10.6828
+Expected impacts over next 3 years,May – Jul 2026,Australia,Australia Business Outlook Scenarios Survey,Jun 2026,908,"Large positive impact, increasing employment by >5% (%)",8.8106
+Expected impacts over next 3 years,May – Jul 2026,Australia,Australia Business Outlook Scenarios Survey,Jun 2026,908,Cumulative impact over next 3 years (%),-0.50385
+Expected impacts over next 3 years,May – Jul 2026,Mexico,Mexico Monthly Survey on Regional Economic Activity (EMAER),Jun 2026,1719,"Large negative impact, reducing employment by >5% (%)",3.7
+Expected impacts over next 3 years,May – Jul 2026,Mexico,Mexico Monthly Survey on Regional Economic Activity (EMAER),Jun 2026,1719,"Small negative impact, reducing employment by <5% (%)",11.8
+Expected impacts over next 3 years,May – Jul 2026,Mexico,Mexico Monthly Survey on Regional Economic Activity (EMAER),Jun 2026,1719,No impact (%),58.5
+Expected impacts over next 3 years,May – Jul 2026,Mexico,Mexico Monthly Survey on Regional Economic Activity (EMAER),Jun 2026,1719,"Small positive impact, increasing employment by <5% (%)",15.7
+Expected impacts over next 3 years,May – Jul 2026,Mexico,Mexico Monthly Survey on Regional Economic Activity (EMAER),Jun 2026,1719,"Large positive impact, increasing employment by >5% (%)",10.2
+Expected impacts over next 3 years,May – Jul 2026,Mexico,Mexico Monthly Survey on Regional Economic Activity (EMAER),Jun 2026,1719,Cumulative impact over next 3 years (%),0.585
+Expected impacts over next 3 years,May – Jul 2026,South Africa,South Africa Quarterly inflation expectations survey,May 2026,118,"Large negative impact, reducing employment by >5% (%)",6.78
+Expected impacts over next 3 years,May – Jul 2026,South Africa,South Africa Quarterly inflation expectations survey,May 2026,118,"Small negative impact, reducing employment by <5% (%)",16.95
+Expected impacts over next 3 years,May – Jul 2026,South Africa,South Africa Quarterly inflation expectations survey,May 2026,118,No impact (%),51.69
+Expected impacts over next 3 years,May – Jul 2026,South Africa,South Africa Quarterly inflation expectations survey,May 2026,118,"Small positive impact, increasing employment by <5% (%)",16.95
+Expected impacts over next 3 years,May – Jul 2026,South Africa,South Africa Quarterly inflation expectations survey,May 2026,118,"Large positive impact, increasing employment by >5% (%)",7.63
+Expected impacts over next 3 years,May – Jul 2026,South Africa,South Africa Quarterly inflation expectations survey,May 2026,118,Cumulative impact over next 3 years (%),0.06375000000000007
+Expected impacts over next 3 years,May – Jul 2026,"All Firms (US, UK and Australia only)",Response-weighted average of the countries surveyed in all waves,May – Jul 2026,3902,"Large negative impact, reducing employment by >5% (%)",12.563904664274729
+Expected impacts over next 3 years,May – Jul 2026,"All Firms (US, UK and Australia only)",Response-weighted average of the countries surveyed in all waves,May – Jul 2026,3902,"Small negative impact, reducing employment by <5% (%)",30.49639692465402
+Expected impacts over next 3 years,May – Jul 2026,"All Firms (US, UK and Australia only)",Response-weighted average of the countries surveyed in all waves,May – Jul 2026,3902,No impact (%),42.42901486417222
+Expected impacts over next 3 years,May – Jul 2026,"All Firms (US, UK and Australia only)",Response-weighted average of the countries surveyed in all waves,May – Jul 2026,3902,"Small positive impact, increasing employment by <5% (%)",9.907109789851358
+Expected impacts over next 3 years,May – Jul 2026,"All Firms (US, UK and Australia only)",Response-weighted average of the countries surveyed in all waves,May – Jul 2026,3902,"Large positive impact, increasing employment by >5% (%)",4.6086070732957465
+Expected impacts over next 3 years,May – Jul 2026,"All Firms (US, UK and Australia only)",Response-weighted average of the countries surveyed in all waves,May – Jul 2026,3902,Cumulative impact over next 3 years (%),-1.1113794976934908

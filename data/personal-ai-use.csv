@@ -1,6 +1,71 @@
-Category,All Firms,US,UK,Germany,Australia
-Not at all,28.216037706450606,27.8,25.44,29.21,33.7209302325581
-Up to 1 hour a week,40.718884387659706,35,44.9,41.02,35.7142857142857
-1 to 5 hours a week,23.741855718292307,28.6,23.19,22.58,22.093023255814
->5 hours a week,7.344358055468993,8.7,6.47,7.2,8.47176079734219
-Average use per week (hours),1.4666769476472425,1.6855000000000002,1.40545,1.4225,1.4767441860465127
+Wave,Country,Survey,Fieldwork,Number of Survey Responses,Category,Value
+Nov 2025 – Jan 2026,All Firms,Average across all firms in the surveyed countries,Nov 2025 – Jan 2026,6418,Not at all (%),28.216037706450606
+Nov 2025 – Jan 2026,All Firms,Average across all firms in the surveyed countries,Nov 2025 – Jan 2026,6418,Up to 1 hour a week (%),40.718884387659706
+Nov 2025 – Jan 2026,All Firms,Average across all firms in the surveyed countries,Nov 2025 – Jan 2026,6418,1 to 5 hours a week (%),23.741855718292307
+Nov 2025 – Jan 2026,All Firms,Average across all firms in the surveyed countries,Nov 2025 – Jan 2026,6418,>5 hours a week (%),7.344358055468993
+Nov 2025 – Jan 2026,All Firms,Average across all firms in the surveyed countries,Nov 2025 – Jan 2026,6418,Average use per week (hours),1.4666769476472425
+Nov 2025 – Jan 2026,US,US Survey of Business Uncertainty,Nov 2025,1084,Not at all (%),27.8
+Nov 2025 – Jan 2026,US,US Survey of Business Uncertainty,Nov 2025,1084,Up to 1 hour a week (%),35
+Nov 2025 – Jan 2026,US,US Survey of Business Uncertainty,Nov 2025,1084,1 to 5 hours a week (%),28.6
+Nov 2025 – Jan 2026,US,US Survey of Business Uncertainty,Nov 2025,1084,>5 hours a week (%),8.7
+Nov 2025 – Jan 2026,US,US Survey of Business Uncertainty,Nov 2025,1084,Average use per week (hours),1.6855000000000002
+Nov 2025 – Jan 2026,UK,UK Decision Maker Panel,Nov 2025 – Jan 2026,2007,Not at all (%),25.44
+Nov 2025 – Jan 2026,UK,UK Decision Maker Panel,Nov 2025 – Jan 2026,2007,Up to 1 hour a week (%),44.9
+Nov 2025 – Jan 2026,UK,UK Decision Maker Panel,Nov 2025 – Jan 2026,2007,1 to 5 hours a week (%),23.19
+Nov 2025 – Jan 2026,UK,UK Decision Maker Panel,Nov 2025 – Jan 2026,2007,>5 hours a week (%),6.47
+Nov 2025 – Jan 2026,UK,UK Decision Maker Panel,Nov 2025 – Jan 2026,2007,Average use per week (hours),1.40545
+Nov 2025 – Jan 2026,Germany,Germany Bundesbank Online Panel - Firms,Jan 2026,2725,Not at all (%),29.21
+Nov 2025 – Jan 2026,Germany,Germany Bundesbank Online Panel - Firms,Jan 2026,2725,Up to 1 hour a week (%),41.02
+Nov 2025 – Jan 2026,Germany,Germany Bundesbank Online Panel - Firms,Jan 2026,2725,1 to 5 hours a week (%),22.58
+Nov 2025 – Jan 2026,Germany,Germany Bundesbank Online Panel - Firms,Jan 2026,2725,>5 hours a week (%),7.2
+Nov 2025 – Jan 2026,Germany,Germany Bundesbank Online Panel - Firms,Jan 2026,2725,Average use per week (hours),1.4225
+Nov 2025 – Jan 2026,Australia,Australia Business Outlook Scenarios Survey,Dec 2025,602,Not at all (%),33.7209302325581
+Nov 2025 – Jan 2026,Australia,Australia Business Outlook Scenarios Survey,Dec 2025,602,Up to 1 hour a week (%),35.7142857142857
+Nov 2025 – Jan 2026,Australia,Australia Business Outlook Scenarios Survey,Dec 2025,602,1 to 5 hours a week (%),22.093023255814
+Nov 2025 – Jan 2026,Australia,Australia Business Outlook Scenarios Survey,Dec 2025,602,>5 hours a week (%),8.47176079734219
+Nov 2025 – Jan 2026,Australia,Australia Business Outlook Scenarios Survey,Dec 2025,602,Average use per week (hours),1.4767441860465127
+May – Jul 2026,All Firms,Average across all firms in the surveyed countries,May – Jul 2026,9224,Not at all (%),20.835523633998264
+May – Jul 2026,All Firms,Average across all firms in the surveyed countries,May – Jul 2026,9224,Up to 1 hour a week (%),35.276179531656545
+May – Jul 2026,All Firms,Average across all firms in the surveyed countries,May – Jul 2026,9224,1 to 5 hours a week (%),30.427477233304423
+May – Jul 2026,All Firms,Average across all firms in the surveyed countries,May – Jul 2026,9224,>5 hours a week (%),13.472063096270599
+May – Jul 2026,All Firms,Average across all firms in the surveyed countries,May – Jul 2026,9224,Average use per week (hours),2.0996099468777105
+May – Jul 2026,US,US Survey of Business Uncertainty,Jun 2026,1097,Not at all (%),16.7
+May – Jul 2026,US,US Survey of Business Uncertainty,Jun 2026,1097,Up to 1 hour a week (%),29.4
+May – Jul 2026,US,US Survey of Business Uncertainty,Jun 2026,1097,1 to 5 hours a week (%),37.3
+May – Jul 2026,US,US Survey of Business Uncertainty,Jun 2026,1097,>5 hours a week (%),16.7
+May – Jul 2026,US,US Survey of Business Uncertainty,Jun 2026,1097,Average use per week (hours),2.5185
+May – Jul 2026,Canada,Canada Business Leaders' Pulse (BLP),May – Jun 2026,873,Not at all (%),20
+May – Jul 2026,Canada,Canada Business Leaders' Pulse (BLP),May – Jun 2026,873,Up to 1 hour a week (%),30
+May – Jul 2026,Canada,Canada Business Leaders' Pulse (BLP),May – Jun 2026,873,1 to 5 hours a week (%),32
+May – Jul 2026,Canada,Canada Business Leaders' Pulse (BLP),May – Jun 2026,873,>5 hours a week (%),18
+May – Jul 2026,Canada,Canada Business Leaders' Pulse (BLP),May – Jun 2026,873,Average use per week (hours),2.46
+May – Jul 2026,UK,UK Decision Maker Panel,May – Jul 2026,2014,Not at all (%),15.26
+May – Jul 2026,UK,UK Decision Maker Panel,May – Jul 2026,2014,Up to 1 hour a week (%),39.33
+May – Jul 2026,UK,UK Decision Maker Panel,May – Jul 2026,2014,1 to 5 hours a week (%),32.2
+May – Jul 2026,UK,UK Decision Maker Panel,May – Jul 2026,2014,>5 hours a week (%),13.22
+May – Jul 2026,UK,UK Decision Maker Panel,May – Jul 2026,2014,Average use per week (hours),2.15415
+May – Jul 2026,Germany,Germany Bundesbank Online Panel - Firms,Jul 2026,2492,Not at all (%),21.78
+May – Jul 2026,Germany,Germany Bundesbank Online Panel - Firms,Jul 2026,2492,Up to 1 hour a week (%),36.62
+May – Jul 2026,Germany,Germany Bundesbank Online Panel - Firms,Jul 2026,2492,1 to 5 hours a week (%),27.63
+May – Jul 2026,Germany,Germany Bundesbank Online Panel - Firms,Jul 2026,2492,>5 hours a week (%),13.96
+May – Jul 2026,Germany,Germany Bundesbank Online Panel - Firms,Jul 2026,2492,Average use per week (hours),2.059
+May – Jul 2026,Australia,Australia Business Outlook Scenarios Survey,Jun 2026,908,Not at all (%),24.45
+May – Jul 2026,Australia,Australia Business Outlook Scenarios Survey,Jun 2026,908,Up to 1 hour a week (%),35.24
+May – Jul 2026,Australia,Australia Business Outlook Scenarios Survey,Jun 2026,908,1 to 5 hours a week (%),27.53
+May – Jul 2026,Australia,Australia Business Outlook Scenarios Survey,Jun 2026,908,>5 hours a week (%),12.78
+May – Jul 2026,Australia,Australia Business Outlook Scenarios Survey,Jun 2026,908,Average use per week (hours),1.9606000000000001
+May – Jul 2026,Mexico,Mexico Monthly Survey on Regional Economic Activity (EMAER),Jun 2026,1719,Not at all (%),26.7
+May – Jul 2026,Mexico,Mexico Monthly Survey on Regional Economic Activity (EMAER),Jun 2026,1719,Up to 1 hour a week (%),35.3
+May – Jul 2026,Mexico,Mexico Monthly Survey on Regional Economic Activity (EMAER),Jun 2026,1719,1 to 5 hours a week (%),28.8
+May – Jul 2026,Mexico,Mexico Monthly Survey on Regional Economic Activity (EMAER),Jun 2026,1719,>5 hours a week (%),9.2
+May – Jul 2026,Mexico,Mexico Monthly Survey on Regional Economic Activity (EMAER),Jun 2026,1719,Average use per week (hours),1.7305000000000001
+May – Jul 2026,South Africa,South Africa Quarterly inflation expectations survey,May 2026,121,Not at all (%),27.27
+May – Jul 2026,South Africa,South Africa Quarterly inflation expectations survey,May 2026,121,Up to 1 hour a week (%),31.4
+May – Jul 2026,South Africa,South Africa Quarterly inflation expectations survey,May 2026,121,1 to 5 hours a week (%),29.75
+May – Jul 2026,South Africa,South Africa Quarterly inflation expectations survey,May 2026,121,>5 hours a week (%),11.57
+May – Jul 2026,South Africa,South Africa Quarterly inflation expectations survey,May 2026,121,Average use per week (hours),1.9172500000000001
+May – Jul 2026,"All Firms (US, UK, Germany and Australia only)",Response-weighted average of the countries surveyed in all waves,May – Jul 2026,6511,Not at all (%),19.279665181999693
+May – Jul 2026,"All Firms (US, UK, Germany and Australia only)",Response-weighted average of the countries surveyed in all waves,May – Jul 2026,6511,Up to 1 hour a week (%),36.04935954538473
+May – Jul 2026,"All Firms (US, UK, Germany and Australia only)",Response-weighted average of the countries surveyed in all waves,May – Jul 2026,6511,1 to 5 hours a week (%),30.658900322531096
+May – Jul 2026,"All Firms (US, UK, Germany and Australia only)",Response-weighted average of the countries surveyed in all waves,May – Jul 2026,6511,>5 hours a week (%),14.028189218246045
+May – Jul 2026,"All Firms (US, UK, Germany and Australia only)",Response-weighted average of the countries surveyed in all waves,May – Jul 2026,6511,Average use per week (hours),2.1521279987713102

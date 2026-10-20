@@ -1,13 +1,181 @@
-Period,Impact Category,All Firms,US,UK,Germany,Australia
-Impacts over last 3 years,Large negative impact reducing productivity by >5%,0.23195843798382934,0,0.16,0.37,0.3322
-Impacts over last 3 years,Small negative impact reducing productivity by <5%,0.819202167555479,0.5,0.71,0.43,3.1561
-Impacts over last 3 years,No impact,89.41142126268709,91.4,89.32,91.34,79.2359
-Impacts over last 3 years,Small positive impact increasing productivity by <5%,7.8135707896094955,7,8.28,6.12,13.9535
-Impacts over last 3 years,Large positive impact increasing productivity by >5%,1.7029785996903493,1,1.53,1.73,3.3223
-Impacts over last 3 years,Cumulative impact over past 3 years (%),0.2851857276793394,0.2375,0.29200000000000004,0.24425,0.4941925
-Expected impacts over next 3 years,Large negative impact reducing productivity by >5%,1.044084926845866,1,0.82,0.92,2.3256
-Expected impacts over next 3 years,Small negative impact reducing productivity by <5%,1.4927284450493365,0.9,1.25,1.22,4.3189
-Expected impacts over next 3 years,No impact,59.735004423273224,38.7,53.24,72.44,67.608
-Expected impacts over next 3 years,Small positive impact increasing productivity by <5%,25.45746781218101,42.4,28.01,18.7,14.6179
-Expected impacts over next 3 years,Large positive impact increasing productivity by >5%,12.291723239197006,17.1,16.68,6.73,11.1296
-Expected impacts over next 3 years,Cumulative impact over next 3 years (%),1.4426913576046274,2.245,1.8585,0.87275,0.917775
+Horizon,Wave,Country,Survey,Fieldwork,Number of Survey Responses,Impact Category,Value
+Impacts over last 3 years,Nov 2025 – Jan 2026,All Firms,Average across all firms in the surveyed countries,Nov 2025 – Jan 2026,5813,"Large negative impact, reducing productivity by >5% (%)",0.23195843798382934
+Impacts over last 3 years,Nov 2025 – Jan 2026,All Firms,Average across all firms in the surveyed countries,Nov 2025 – Jan 2026,5813,"Small negative impact, reducing productivity by <5% (%)",0.819202167555479
+Impacts over last 3 years,Nov 2025 – Jan 2026,All Firms,Average across all firms in the surveyed countries,Nov 2025 – Jan 2026,5813,No impact (%),89.41142126268709
+Impacts over last 3 years,Nov 2025 – Jan 2026,All Firms,Average across all firms in the surveyed countries,Nov 2025 – Jan 2026,5813,"Small positive impact, increasing productivity by <5% (%)",7.8135707896094955
+Impacts over last 3 years,Nov 2025 – Jan 2026,All Firms,Average across all firms in the surveyed countries,Nov 2025 – Jan 2026,5813,"Large positive impact, increasing productivity by >5% (%)",1.7029785996903493
+Impacts over last 3 years,Nov 2025 – Jan 2026,All Firms,Average across all firms in the surveyed countries,Nov 2025 – Jan 2026,5813,Cumulative impact over past 3 years (%),0.2851857276793394
+Impacts over last 3 years,Nov 2025 – Jan 2026,US,US Survey of Business Uncertainty,Nov 2025,988,"Large negative impact, reducing productivity by >5% (%)",0
+Impacts over last 3 years,Nov 2025 – Jan 2026,US,US Survey of Business Uncertainty,Nov 2025,988,"Small negative impact, reducing productivity by <5% (%)",0.5
+Impacts over last 3 years,Nov 2025 – Jan 2026,US,US Survey of Business Uncertainty,Nov 2025,988,No impact (%),91.4
+Impacts over last 3 years,Nov 2025 – Jan 2026,US,US Survey of Business Uncertainty,Nov 2025,988,"Small positive impact, increasing productivity by <5% (%)",7
+Impacts over last 3 years,Nov 2025 – Jan 2026,US,US Survey of Business Uncertainty,Nov 2025,988,"Large positive impact, increasing productivity by >5% (%)",1
+Impacts over last 3 years,Nov 2025 – Jan 2026,US,US Survey of Business Uncertainty,Nov 2025,988,Cumulative impact over past 3 years (%),0.2375
+Impacts over last 3 years,Nov 2025 – Jan 2026,UK,UK Decision Maker Panel,Nov 2025 – Jan 2026,1972,"Large negative impact, reducing productivity by >5% (%)",0.16
+Impacts over last 3 years,Nov 2025 – Jan 2026,UK,UK Decision Maker Panel,Nov 2025 – Jan 2026,1972,"Small negative impact, reducing productivity by <5% (%)",0.71
+Impacts over last 3 years,Nov 2025 – Jan 2026,UK,UK Decision Maker Panel,Nov 2025 – Jan 2026,1972,No impact (%),89.32
+Impacts over last 3 years,Nov 2025 – Jan 2026,UK,UK Decision Maker Panel,Nov 2025 – Jan 2026,1972,"Small positive impact, increasing productivity by <5% (%)",8.28
+Impacts over last 3 years,Nov 2025 – Jan 2026,UK,UK Decision Maker Panel,Nov 2025 – Jan 2026,1972,"Large positive impact, increasing productivity by >5% (%)",1.53
+Impacts over last 3 years,Nov 2025 – Jan 2026,UK,UK Decision Maker Panel,Nov 2025 – Jan 2026,1972,Cumulative impact over past 3 years (%),0.29200000000000004
+Impacts over last 3 years,Nov 2025 – Jan 2026,Germany,Germany Bundesbank Online Panel - Firms,Jan 2026,2251,"Large negative impact, reducing productivity by >5% (%)",0.37
+Impacts over last 3 years,Nov 2025 – Jan 2026,Germany,Germany Bundesbank Online Panel - Firms,Jan 2026,2251,"Small negative impact, reducing productivity by <5% (%)",0.43
+Impacts over last 3 years,Nov 2025 – Jan 2026,Germany,Germany Bundesbank Online Panel - Firms,Jan 2026,2251,No impact (%),91.34
+Impacts over last 3 years,Nov 2025 – Jan 2026,Germany,Germany Bundesbank Online Panel - Firms,Jan 2026,2251,"Small positive impact, increasing productivity by <5% (%)",6.12
+Impacts over last 3 years,Nov 2025 – Jan 2026,Germany,Germany Bundesbank Online Panel - Firms,Jan 2026,2251,"Large positive impact, increasing productivity by >5% (%)",1.73
+Impacts over last 3 years,Nov 2025 – Jan 2026,Germany,Germany Bundesbank Online Panel - Firms,Jan 2026,2251,Cumulative impact over past 3 years (%),0.24425
+Impacts over last 3 years,Nov 2025 – Jan 2026,Australia,Australia Business Outlook Scenarios Survey,Dec 2025,602,"Large negative impact, reducing productivity by >5% (%)",0.3322
+Impacts over last 3 years,Nov 2025 – Jan 2026,Australia,Australia Business Outlook Scenarios Survey,Dec 2025,602,"Small negative impact, reducing productivity by <5% (%)",3.1561
+Impacts over last 3 years,Nov 2025 – Jan 2026,Australia,Australia Business Outlook Scenarios Survey,Dec 2025,602,No impact (%),79.2359
+Impacts over last 3 years,Nov 2025 – Jan 2026,Australia,Australia Business Outlook Scenarios Survey,Dec 2025,602,"Small positive impact, increasing productivity by <5% (%)",13.9535
+Impacts over last 3 years,Nov 2025 – Jan 2026,Australia,Australia Business Outlook Scenarios Survey,Dec 2025,602,"Large positive impact, increasing productivity by >5% (%)",3.3223
+Impacts over last 3 years,Nov 2025 – Jan 2026,Australia,Australia Business Outlook Scenarios Survey,Dec 2025,602,Cumulative impact over past 3 years (%),0.4941925
+Impacts over last 3 years,Nov 2025 – Jan 2026,"All Firms (US, UK and Australia only)",Response-weighted average of the countries surveyed in all waves,Nov 2025 – Jan 2026,3562,"Large negative impact, reducing productivity by >5% (%)",0.14472330151600227
+Impacts over last 3 years,Nov 2025 – Jan 2026,"All Firms (US, UK and Australia only)",Response-weighted average of the countries surveyed in all waves,Nov 2025 – Jan 2026,3562,"Small negative impact, reducing productivity by <5% (%)",1.0651578326782707
+Impacts over last 3 years,Nov 2025 – Jan 2026,"All Firms (US, UK and Australia only)",Response-weighted average of the countries surveyed in all waves,Nov 2025 – Jan 2026,3562,No impact (%),88.19265912408758
+Impacts over last 3 years,Nov 2025 – Jan 2026,"All Firms (US, UK and Australia only)",Response-weighted average of the countries surveyed in all waves,Nov 2025 – Jan 2026,3562,"Small positive impact, increasing productivity by <5% (%)",8.883820044918583
+Impacts over last 3 years,Nov 2025 – Jan 2026,"All Firms (US, UK and Australia only)",Response-weighted average of the countries surveyed in all waves,Nov 2025 – Jan 2026,3562,"Large positive impact, increasing productivity by >5% (%)",1.6859024705221783
+Impacts over last 3 years,Nov 2025 – Jan 2026,"All Firms (US, UK and Australia only)",Response-weighted average of the countries surveyed in all waves,Nov 2025 – Jan 2026,3562,Cumulative impact over past 3 years (%),0.3110549929814711
+Impacts over last 3 years,May – Jul 2026,All Firms,Average across all firms in the surveyed countries,May – Jul 2026,8438,"Large negative impact, reducing productivity by >5% (%)",0.39157169945484704
+Impacts over last 3 years,May – Jul 2026,All Firms,Average across all firms in the surveyed countries,May – Jul 2026,8438,"Small negative impact, reducing productivity by <5% (%)",1.1395679070869873
+Impacts over last 3 years,May – Jul 2026,All Firms,Average across all firms in the surveyed countries,May – Jul 2026,8438,No impact (%),83.3759567670064
+Impacts over last 3 years,May – Jul 2026,All Firms,Average across all firms in the surveyed countries,May – Jul 2026,8438,"Small positive impact, increasing productivity by <5% (%)",12.214340033183218
+Impacts over last 3 years,May – Jul 2026,All Firms,Average across all firms in the surveyed countries,May – Jul 2026,8438,"Large positive impact, increasing productivity by >5% (%)",2.8964043138184405
+Impacts over last 3 years,May – Jul 2026,All Firms,Average across all firms in the surveyed countries,May – Jul 2026,8438,Cumulative impact over past 3 years (%),0.4647317492296753
+Impacts over last 3 years,May – Jul 2026,US,US Survey of Business Uncertainty,Jun 2026,964,"Large negative impact, reducing productivity by >5% (%)",0
+Impacts over last 3 years,May – Jul 2026,US,US Survey of Business Uncertainty,Jun 2026,964,"Small negative impact, reducing productivity by <5% (%)",1.4
+Impacts over last 3 years,May – Jul 2026,US,US Survey of Business Uncertainty,Jun 2026,964,No impact (%),82.8
+Impacts over last 3 years,May – Jul 2026,US,US Survey of Business Uncertainty,Jun 2026,964,"Small positive impact, increasing productivity by <5% (%)",13.5
+Impacts over last 3 years,May – Jul 2026,US,US Survey of Business Uncertainty,Jun 2026,964,"Large positive impact, increasing productivity by >5% (%)",2.3
+Impacts over last 3 years,May – Jul 2026,US,US Survey of Business Uncertainty,Jun 2026,964,Cumulative impact over past 3 years (%),0.475
+Impacts over last 3 years,May – Jul 2026,Canada,Canada Business Leaders' Pulse (BLP),May – Jun 2026,517,"Large negative impact, reducing productivity by >5% (%)",0.5802707930367504
+Impacts over last 3 years,May – Jul 2026,Canada,Canada Business Leaders' Pulse (BLP),May – Jun 2026,517,"Small negative impact, reducing productivity by <5% (%)",1.7408123791102514
+Impacts over last 3 years,May – Jul 2026,Canada,Canada Business Leaders' Pulse (BLP),May – Jun 2026,517,No impact (%),85.49323017408123
+Impacts over last 3 years,May – Jul 2026,Canada,Canada Business Leaders' Pulse (BLP),May – Jun 2026,517,"Small positive impact, increasing productivity by <5% (%)",9.284332688588007
+Impacts over last 3 years,May – Jul 2026,Canada,Canada Business Leaders' Pulse (BLP),May – Jun 2026,517,"Large positive impact, increasing productivity by >5% (%)",2.9013539651837523
+Impacts over last 3 years,May – Jul 2026,Canada,Canada Business Leaders' Pulse (BLP),May – Jun 2026,517,Cumulative impact over past 3 years (%),0.36266924564796904
+Impacts over last 3 years,May – Jul 2026,UK,UK Decision Maker Panel,May – Jul 2026,1964,"Large negative impact, reducing productivity by >5% (%)",0.13
+Impacts over last 3 years,May – Jul 2026,UK,UK Decision Maker Panel,May – Jul 2026,1964,"Small negative impact, reducing productivity by <5% (%)",0.57
+Impacts over last 3 years,May – Jul 2026,UK,UK Decision Maker Panel,May – Jul 2026,1964,No impact (%),82.24
+Impacts over last 3 years,May – Jul 2026,UK,UK Decision Maker Panel,May – Jul 2026,1964,"Small positive impact, increasing productivity by <5% (%)",14.4
+Impacts over last 3 years,May – Jul 2026,UK,UK Decision Maker Panel,May – Jul 2026,1964,"Large positive impact, increasing productivity by >5% (%)",2.66
+Impacts over last 3 years,May – Jul 2026,UK,UK Decision Maker Panel,May – Jul 2026,1964,Cumulative impact over past 3 years (%),0.5355000000000001
+Impacts over last 3 years,May – Jul 2026,Germany,Germany Bundesbank Online Panel - Firms,Jan 2026,2251,"Large negative impact, reducing productivity by >5% (%)",0.37
+Impacts over last 3 years,May – Jul 2026,Germany,Germany Bundesbank Online Panel - Firms,Jan 2026,2251,"Small negative impact, reducing productivity by <5% (%)",0.43
+Impacts over last 3 years,May – Jul 2026,Germany,Germany Bundesbank Online Panel - Firms,Jan 2026,2251,No impact (%),91.34
+Impacts over last 3 years,May – Jul 2026,Germany,Germany Bundesbank Online Panel - Firms,Jan 2026,2251,"Small positive impact, increasing productivity by <5% (%)",6.12
+Impacts over last 3 years,May – Jul 2026,Germany,Germany Bundesbank Online Panel - Firms,Jan 2026,2251,"Large positive impact, increasing productivity by >5% (%)",1.73
+Impacts over last 3 years,May – Jul 2026,Germany,Germany Bundesbank Online Panel - Firms,Jan 2026,2251,Cumulative impact over past 3 years (%),0.24425
+Impacts over last 3 years,May – Jul 2026,Australia,Australia Business Outlook Scenarios Survey,Jun 2026,908,"Large negative impact, reducing productivity by >5% (%)",1.2115
+Impacts over last 3 years,May – Jul 2026,Australia,Australia Business Outlook Scenarios Survey,Jun 2026,908,"Small negative impact, reducing productivity by <5% (%)",2.533
+Impacts over last 3 years,May – Jul 2026,Australia,Australia Business Outlook Scenarios Survey,Jun 2026,908,No impact (%),81.6079
+Impacts over last 3 years,May – Jul 2026,Australia,Australia Business Outlook Scenarios Survey,Jun 2026,908,"Small positive impact, increasing productivity by <5% (%)",9.4714
+Impacts over last 3 years,May – Jul 2026,Australia,Australia Business Outlook Scenarios Survey,Jun 2026,908,"Large positive impact, increasing productivity by >5% (%)",5.1762
+Impacts over last 3 years,May – Jul 2026,Australia,Australia Business Outlook Scenarios Survey,Jun 2026,908,Cumulative impact over past 3 years (%),0.47081249999999997
+Impacts over last 3 years,May – Jul 2026,Mexico,Mexico Monthly Survey on Regional Economic Activity (EMAER),Jun 2026,1719,"Large negative impact, reducing productivity by >5% (%)",0.3
+Impacts over last 3 years,May – Jul 2026,Mexico,Mexico Monthly Survey on Regional Economic Activity (EMAER),Jun 2026,1719,"Small negative impact, reducing productivity by <5% (%)",1.5
+Impacts over last 3 years,May – Jul 2026,Mexico,Mexico Monthly Survey on Regional Economic Activity (EMAER),Jun 2026,1719,No impact (%),74.8
+Impacts over last 3 years,May – Jul 2026,Mexico,Mexico Monthly Survey on Regional Economic Activity (EMAER),Jun 2026,1719,"Small positive impact, increasing productivity by <5% (%)",19.6
+Impacts over last 3 years,May – Jul 2026,Mexico,Mexico Monthly Survey on Regional Economic Activity (EMAER),Jun 2026,1719,"Large positive impact, increasing productivity by >5% (%)",3.9
+Impacts over last 3 years,May – Jul 2026,Mexico,Mexico Monthly Survey on Regional Economic Activity (EMAER),Jun 2026,1719,Cumulative impact over past 3 years (%),0.7225
+Impacts over last 3 years,May – Jul 2026,South Africa,South Africa Quarterly inflation expectations survey,May 2026,115,"Large negative impact, reducing productivity by >5% (%)",2.61
+Impacts over last 3 years,May – Jul 2026,South Africa,South Africa Quarterly inflation expectations survey,May 2026,115,"Small negative impact, reducing productivity by <5% (%)",3.48
+Impacts over last 3 years,May – Jul 2026,South Africa,South Africa Quarterly inflation expectations survey,May 2026,115,No impact (%),84.35
+Impacts over last 3 years,May – Jul 2026,South Africa,South Africa Quarterly inflation expectations survey,May 2026,115,"Small positive impact, increasing productivity by <5% (%)",7.83
+Impacts over last 3 years,May – Jul 2026,South Africa,South Africa Quarterly inflation expectations survey,May 2026,115,"Large positive impact, increasing productivity by >5% (%)",1.74
+Impacts over last 3 years,May – Jul 2026,South Africa,South Africa Quarterly inflation expectations survey,May 2026,115,Cumulative impact over past 3 years (%),0.04350000000000001
+Impacts over last 3 years,May – Jul 2026,"All Firms (US, UK and Australia only)",Response-weighted average of the countries surveyed in all waves,May – Jul 2026,3836,"Large negative impact, reducing productivity by >5% (%)",0.3533269030239833
+Impacts over last 3 years,May – Jul 2026,"All Firms (US, UK and Australia only)",Response-weighted average of the countries surveyed in all waves,May – Jul 2026,3836,"Small negative impact, reducing productivity by <5% (%)",1.2432335766423357
+Impacts over last 3 years,May – Jul 2026,"All Firms (US, UK and Australia only)",Response-weighted average of the countries surveyed in all waves,May – Jul 2026,3836,No impact (%),82.23110875912408
+Impacts over last 3 years,May – Jul 2026,"All Firms (US, UK and Australia only)",Response-weighted average of the countries surveyed in all waves,May – Jul 2026,3836,"Small positive impact, increasing productivity by <5% (%)",13.007203128258604
+Impacts over last 3 years,May – Jul 2026,"All Firms (US, UK and Australia only)",Response-weighted average of the countries surveyed in all waves,May – Jul 2026,3836,"Large positive impact, increasing productivity by >5% (%)",3.1651276329509903
+Impacts over last 3 years,May – Jul 2026,"All Firms (US, UK and Australia only)",Response-weighted average of the countries surveyed in all waves,May – Jul 2026,3836,Cumulative impact over past 3 years (%),0.5049842935349323
+Expected impacts over next 3 years,Nov 2025 – Jan 2026,All Firms,Average across all firms in the surveyed countries,Nov 2025 – Jan 2026,5878,"Large negative impact, reducing productivity by >5% (%)",1.044084926845866
+Expected impacts over next 3 years,Nov 2025 – Jan 2026,All Firms,Average across all firms in the surveyed countries,Nov 2025 – Jan 2026,5878,"Small negative impact, reducing productivity by <5% (%)",1.4927284450493365
+Expected impacts over next 3 years,Nov 2025 – Jan 2026,All Firms,Average across all firms in the surveyed countries,Nov 2025 – Jan 2026,5878,No impact (%),59.735004423273224
+Expected impacts over next 3 years,Nov 2025 – Jan 2026,All Firms,Average across all firms in the surveyed countries,Nov 2025 – Jan 2026,5878,"Small positive impact, increasing productivity by <5% (%)",25.45746781218101
+Expected impacts over next 3 years,Nov 2025 – Jan 2026,All Firms,Average across all firms in the surveyed countries,Nov 2025 – Jan 2026,5878,"Large positive impact, increasing productivity by >5% (%)",12.291723239197006
+Expected impacts over next 3 years,Nov 2025 – Jan 2026,All Firms,Average across all firms in the surveyed countries,Nov 2025 – Jan 2026,5878,Cumulative impact over next 3 years (%),1.4426913576046274
+Expected impacts over next 3 years,Nov 2025 – Jan 2026,US,US Survey of Business Uncertainty,Nov 2025,1005,"Large negative impact, reducing productivity by >5% (%)",1
+Expected impacts over next 3 years,Nov 2025 – Jan 2026,US,US Survey of Business Uncertainty,Nov 2025,1005,"Small negative impact, reducing productivity by <5% (%)",0.9
+Expected impacts over next 3 years,Nov 2025 – Jan 2026,US,US Survey of Business Uncertainty,Nov 2025,1005,No impact (%),38.7
+Expected impacts over next 3 years,Nov 2025 – Jan 2026,US,US Survey of Business Uncertainty,Nov 2025,1005,"Small positive impact, increasing productivity by <5% (%)",42.4
+Expected impacts over next 3 years,Nov 2025 – Jan 2026,US,US Survey of Business Uncertainty,Nov 2025,1005,"Large positive impact, increasing productivity by >5% (%)",17.1
+Expected impacts over next 3 years,Nov 2025 – Jan 2026,US,US Survey of Business Uncertainty,Nov 2025,1005,Cumulative impact over next 3 years (%),2.245
+Expected impacts over next 3 years,Nov 2025 – Jan 2026,UK,UK Decision Maker Panel,Nov 2025 – Jan 2026,1972,"Large negative impact, reducing productivity by >5% (%)",0.82
+Expected impacts over next 3 years,Nov 2025 – Jan 2026,UK,UK Decision Maker Panel,Nov 2025 – Jan 2026,1972,"Small negative impact, reducing productivity by <5% (%)",1.25
+Expected impacts over next 3 years,Nov 2025 – Jan 2026,UK,UK Decision Maker Panel,Nov 2025 – Jan 2026,1972,No impact (%),53.24
+Expected impacts over next 3 years,Nov 2025 – Jan 2026,UK,UK Decision Maker Panel,Nov 2025 – Jan 2026,1972,"Small positive impact, increasing productivity by <5% (%)",28.01
+Expected impacts over next 3 years,Nov 2025 – Jan 2026,UK,UK Decision Maker Panel,Nov 2025 – Jan 2026,1972,"Large positive impact, increasing productivity by >5% (%)",16.68
+Expected impacts over next 3 years,Nov 2025 – Jan 2026,UK,UK Decision Maker Panel,Nov 2025 – Jan 2026,1972,Cumulative impact over next 3 years (%),1.8585
+Expected impacts over next 3 years,Nov 2025 – Jan 2026,Germany,Germany Bundesbank Online Panel - Firms,Jan 2026,2299,"Large negative impact, reducing productivity by >5% (%)",0.92
+Expected impacts over next 3 years,Nov 2025 – Jan 2026,Germany,Germany Bundesbank Online Panel - Firms,Jan 2026,2299,"Small negative impact, reducing productivity by <5% (%)",1.22
+Expected impacts over next 3 years,Nov 2025 – Jan 2026,Germany,Germany Bundesbank Online Panel - Firms,Jan 2026,2299,No impact (%),72.44
+Expected impacts over next 3 years,Nov 2025 – Jan 2026,Germany,Germany Bundesbank Online Panel - Firms,Jan 2026,2299,"Small positive impact, increasing productivity by <5% (%)",18.7
+Expected impacts over next 3 years,Nov 2025 – Jan 2026,Germany,Germany Bundesbank Online Panel - Firms,Jan 2026,2299,"Large positive impact, increasing productivity by >5% (%)",6.73
+Expected impacts over next 3 years,Nov 2025 – Jan 2026,Germany,Germany Bundesbank Online Panel - Firms,Jan 2026,2299,Cumulative impact over next 3 years (%),0.87275
+Expected impacts over next 3 years,Nov 2025 – Jan 2026,Australia,Australia Business Outlook Scenarios Survey,Dec 2025,602,"Large negative impact, reducing productivity by >5% (%)",2.3256
+Expected impacts over next 3 years,Nov 2025 – Jan 2026,Australia,Australia Business Outlook Scenarios Survey,Dec 2025,602,"Small negative impact, reducing productivity by <5% (%)",4.3189
+Expected impacts over next 3 years,Nov 2025 – Jan 2026,Australia,Australia Business Outlook Scenarios Survey,Dec 2025,602,No impact (%),67.608
+Expected impacts over next 3 years,Nov 2025 – Jan 2026,Australia,Australia Business Outlook Scenarios Survey,Dec 2025,602,"Small positive impact, increasing productivity by <5% (%)",14.6179
+Expected impacts over next 3 years,Nov 2025 – Jan 2026,Australia,Australia Business Outlook Scenarios Survey,Dec 2025,602,"Large positive impact, increasing productivity by >5% (%)",11.1296
+Expected impacts over next 3 years,Nov 2025 – Jan 2026,Australia,Australia Business Outlook Scenarios Survey,Dec 2025,602,Cumulative impact over next 3 years (%),0.917775
+Expected impacts over next 3 years,Nov 2025 – Jan 2026,"All Firms (US, UK and Australia only)",Response-weighted average of the countries surveyed in all waves,Nov 2025 – Jan 2026,3579,"Large negative impact, reducing productivity by >5% (%)",1.1237918971779826
+Expected impacts over next 3 years,Nov 2025 – Jan 2026,"All Firms (US, UK and Australia only)",Response-weighted average of the countries surveyed in all waves,Nov 2025 – Jan 2026,3579,"Small negative impact, reducing productivity by <5% (%)",1.6679177982676727
+Expected impacts over next 3 years,Nov 2025 – Jan 2026,"All Firms (US, UK and Australia only)",Response-weighted average of the countries surveyed in all waves,Nov 2025 – Jan 2026,3579,No impact (%),51.573846325789326
+Expected impacts over next 3 years,Nov 2025 – Jan 2026,"All Firms (US, UK and Australia only)",Response-weighted average of the countries surveyed in all waves,Nov 2025 – Jan 2026,3579,"Small positive impact, increasing productivity by <5% (%)",29.798182676725343
+Expected impacts over next 3 years,Nov 2025 – Jan 2026,"All Firms (US, UK and Australia only)",Response-weighted average of the countries surveyed in all waves,Nov 2025 – Jan 2026,3579,"Large positive impact, increasing productivity by >5% (%)",15.864341771444538
+Expected impacts over next 3 years,Nov 2025 – Jan 2026,"All Firms (US, UK and Australia only)",Response-weighted average of the countries surveyed in all waves,Nov 2025 – Jan 2026,3579,Cumulative impact over next 3 years (%),1.8087978625314332
+Expected impacts over next 3 years,May – Jul 2026,All Firms,Average across all firms in the surveyed countries,May – Jul 2026,8568,"Large negative impact, reducing productivity by >5% (%)",1.3158200280112045
+Expected impacts over next 3 years,May – Jul 2026,All Firms,Average across all firms in the surveyed countries,May – Jul 2026,8568,"Small negative impact, reducing productivity by <5% (%)",2.360974509803921
+Expected impacts over next 3 years,May – Jul 2026,All Firms,Average across all firms in the surveyed countries,May – Jul 2026,8568,No impact (%),53.38538870214753
+Expected impacts over next 3 years,May – Jul 2026,All Firms,Average across all firms in the surveyed countries,May – Jul 2026,8568,"Small positive impact, increasing productivity by <5% (%)",27.363175443510737
+Expected impacts over next 3 years,May – Jul 2026,All Firms,Average across all firms in the surveyed countries,May – Jul 2026,8568,"Large positive impact, increasing productivity by >5% (%)",15.594968207282914
+Expected impacts over next 3 years,May – Jul 2026,All Firms,Average across all firms in the surveyed countries,May – Jul 2026,8568,Cumulative impact over next 3 years (%),1.6959911367880487
+Expected impacts over next 3 years,May – Jul 2026,US,US Survey of Business Uncertainty,Jun 2026,1018,"Large negative impact, reducing productivity by >5% (%)",2
+Expected impacts over next 3 years,May – Jul 2026,US,US Survey of Business Uncertainty,Jun 2026,1018,"Small negative impact, reducing productivity by <5% (%)",3.1
+Expected impacts over next 3 years,May – Jul 2026,US,US Survey of Business Uncertainty,Jun 2026,1018,No impact (%),35.5
+Expected impacts over next 3 years,May – Jul 2026,US,US Survey of Business Uncertainty,Jun 2026,1018,"Small positive impact, increasing productivity by <5% (%)",37.9
+Expected impacts over next 3 years,May – Jul 2026,US,US Survey of Business Uncertainty,Jun 2026,1018,"Large positive impact, increasing productivity by >5% (%)",21.5
+Expected impacts over next 3 years,May – Jul 2026,US,US Survey of Business Uncertainty,Jun 2026,1018,Cumulative impact over next 3 years (%),2.3325
+Expected impacts over next 3 years,May – Jul 2026,Canada,Canada Business Leaders' Pulse (BLP),May – Jun 2026,542,"Large negative impact, reducing productivity by >5% (%)",1.845018450184502
+Expected impacts over next 3 years,May – Jul 2026,Canada,Canada Business Leaders' Pulse (BLP),May – Jun 2026,542,"Small negative impact, reducing productivity by <5% (%)",2.029520295202952
+Expected impacts over next 3 years,May – Jul 2026,Canada,Canada Business Leaders' Pulse (BLP),May – Jun 2026,542,No impact (%),49.6309963099631
+Expected impacts over next 3 years,May – Jul 2026,Canada,Canada Business Leaders' Pulse (BLP),May – Jun 2026,542,"Small positive impact, increasing productivity by <5% (%)",25.461254612546124
+Expected impacts over next 3 years,May – Jul 2026,Canada,Canada Business Leaders' Pulse (BLP),May – Jun 2026,542,"Large positive impact, increasing productivity by >5% (%)",21.03321033210332
+Expected impacts over next 3 years,May – Jul 2026,Canada,Canada Business Leaders' Pulse (BLP),May – Jun 2026,542,Cumulative impact over next 3 years (%),2.024907749077491
+Expected impacts over next 3 years,May – Jul 2026,UK,UK Decision Maker Panel,May – Jul 2026,1964,"Large negative impact, reducing productivity by >5% (%)",0.68
+Expected impacts over next 3 years,May – Jul 2026,UK,UK Decision Maker Panel,May – Jul 2026,1964,"Small negative impact, reducing productivity by <5% (%)",2.38
+Expected impacts over next 3 years,May – Jul 2026,UK,UK Decision Maker Panel,May – Jul 2026,1964,No impact (%),35.17
+Expected impacts over next 3 years,May – Jul 2026,UK,UK Decision Maker Panel,May – Jul 2026,1964,"Small positive impact, increasing productivity by <5% (%)",38.05
+Expected impacts over next 3 years,May – Jul 2026,UK,UK Decision Maker Panel,May – Jul 2026,1964,"Large positive impact, increasing productivity by >5% (%)",23.71
+Expected impacts over next 3 years,May – Jul 2026,UK,UK Decision Maker Panel,May – Jul 2026,1964,Cumulative impact over next 3 years (%),2.619
+Expected impacts over next 3 years,May – Jul 2026,Germany,Germany Bundesbank Online Panel - Firms,Jan 2026,2299,"Large negative impact, reducing productivity by >5% (%)",0.92
+Expected impacts over next 3 years,May – Jul 2026,Germany,Germany Bundesbank Online Panel - Firms,Jan 2026,2299,"Small negative impact, reducing productivity by <5% (%)",1.22
+Expected impacts over next 3 years,May – Jul 2026,Germany,Germany Bundesbank Online Panel - Firms,Jan 2026,2299,No impact (%),72.44
+Expected impacts over next 3 years,May – Jul 2026,Germany,Germany Bundesbank Online Panel - Firms,Jan 2026,2299,"Small positive impact, increasing productivity by <5% (%)",18.7
+Expected impacts over next 3 years,May – Jul 2026,Germany,Germany Bundesbank Online Panel - Firms,Jan 2026,2299,"Large positive impact, increasing productivity by >5% (%)",6.73
+Expected impacts over next 3 years,May – Jul 2026,Germany,Germany Bundesbank Online Panel - Firms,Jan 2026,2299,Cumulative impact over next 3 years (%),0.87275
+Expected impacts over next 3 years,May – Jul 2026,Australia,Australia Business Outlook Scenarios Survey,Jun 2026,908,"Large negative impact, reducing productivity by >5% (%)",3.7445
+Expected impacts over next 3 years,May – Jul 2026,Australia,Australia Business Outlook Scenarios Survey,Jun 2026,908,"Small negative impact, reducing productivity by <5% (%)",5.1762
+Expected impacts over next 3 years,May – Jul 2026,Australia,Australia Business Outlook Scenarios Survey,Jun 2026,908,No impact (%),65.6388
+Expected impacts over next 3 years,May – Jul 2026,Australia,Australia Business Outlook Scenarios Survey,Jun 2026,908,"Small positive impact, increasing productivity by <5% (%)",15.3084
+Expected impacts over next 3 years,May – Jul 2026,Australia,Australia Business Outlook Scenarios Survey,Jun 2026,908,"Large positive impact, increasing productivity by >5% (%)",10.1322
+Expected impacts over next 3 years,May – Jul 2026,Australia,Australia Business Outlook Scenarios Survey,Jun 2026,908,Cumulative impact over next 3 years (%),0.7323824999999999
+Expected impacts over next 3 years,May – Jul 2026,Mexico,Mexico Monthly Survey on Regional Economic Activity (EMAER),Jun 2026,1719,"Large negative impact, reducing productivity by >5% (%)",0.4
+Expected impacts over next 3 years,May – Jul 2026,Mexico,Mexico Monthly Survey on Regional Economic Activity (EMAER),Jun 2026,1719,"Small negative impact, reducing productivity by <5% (%)",1.8
+Expected impacts over next 3 years,May – Jul 2026,Mexico,Mexico Monthly Survey on Regional Economic Activity (EMAER),Jun 2026,1719,No impact (%),53.9
+Expected impacts over next 3 years,May – Jul 2026,Mexico,Mexico Monthly Survey on Regional Economic Activity (EMAER),Jun 2026,1719,"Small positive impact, increasing productivity by <5% (%)",27.6
+Expected impacts over next 3 years,May – Jul 2026,Mexico,Mexico Monthly Survey on Regional Economic Activity (EMAER),Jun 2026,1719,"Large positive impact, increasing productivity by >5% (%)",16.4
+Expected impacts over next 3 years,May – Jul 2026,Mexico,Mexico Monthly Survey on Regional Economic Activity (EMAER),Jun 2026,1719,Cumulative impact over next 3 years (%),1.845
+Expected impacts over next 3 years,May – Jul 2026,South Africa,South Africa Quarterly inflation expectations survey,May 2026,118,"Large negative impact, reducing productivity by >5% (%)",5.93
+Expected impacts over next 3 years,May – Jul 2026,South Africa,South Africa Quarterly inflation expectations survey,May 2026,118,"Small negative impact, reducing productivity by <5% (%)",5.93
+Expected impacts over next 3 years,May – Jul 2026,South Africa,South Africa Quarterly inflation expectations survey,May 2026,118,No impact (%),55.08
+Expected impacts over next 3 years,May – Jul 2026,South Africa,South Africa Quarterly inflation expectations survey,May 2026,118,"Small positive impact, increasing productivity by <5% (%)",25.42
+Expected impacts over next 3 years,May – Jul 2026,South Africa,South Africa Quarterly inflation expectations survey,May 2026,118,"Large positive impact, increasing productivity by >5% (%)",7.63
+Expected impacts over next 3 years,May – Jul 2026,South Africa,South Africa Quarterly inflation expectations survey,May 2026,118,Cumulative impact over next 3 years (%),0.6147500000000001
+Expected impacts over next 3 years,May – Jul 2026,"All Firms (US, UK and Australia only)",Response-weighted average of the countries surveyed in all waves,May – Jul 2026,3890,"Large negative impact, reducing productivity by >5% (%)",1.7407521850899743
+Expected impacts over next 3 years,May – Jul 2026,"All Firms (US, UK and Australia only)",Response-weighted average of the countries surveyed in all waves,May – Jul 2026,3890,"Small negative impact, reducing productivity by <5% (%)",3.221107866323907
+Expected impacts over next 3 years,May – Jul 2026,"All Firms (US, UK and Australia only)",Response-weighted average of the countries surveyed in all waves,May – Jul 2026,3890,No impact (%),42.36835742930591
+Expected impacts over next 3 years,May – Jul 2026,"All Firms (US, UK and Australia only)",Response-weighted average of the countries surveyed in all waves,May – Jul 2026,3890,"Small positive impact, increasing productivity by <5% (%)",32.70242344473007
+Expected impacts over next 3 years,May – Jul 2026,"All Firms (US, UK and Australia only)",Response-weighted average of the countries surveyed in all waves,May – Jul 2026,3890,"Large positive impact, increasing productivity by >5% (%)",19.962333573264782
+Expected impacts over next 3 years,May – Jul 2026,"All Firms (US, UK and Australia only)",Response-weighted average of the countries surveyed in all waves,May – Jul 2026,3890,Cumulative impact over next 3 years (%),2.103651493573265

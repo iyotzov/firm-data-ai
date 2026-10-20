@@ -2,7 +2,7 @@
 
 An interactive data dashboard accompanying the NBER Working Paper **"Firm Data on AI"**. It visualises firm-level survey results on AI adoption, personal AI use, and the employment and productivity impacts of AI across multiple countries.
 
-> **Citation:** Yotzov, I., J. M. Barrero, N. Bloom, P. Bunn, S. J. Davis, K. M. Foster, A. Jalca, B. H. Meyer, P. Mizen, M. A. Navarrete, P. Smietanka, G. Thwaites and B. Z. Wang (2026), "Firm Data on AI", *NBER Working Paper* 34836.
+> **Citation:** Yotzov, I., J. M. Barrero, N. Bloom, P. Bunn, C. Chawla, S. J. Davis, K. M. Foster, A. Jalca, B. H. Meyer, P. Mizen, M. A. Navarrete, S. Oh, P. Smietanka, K. Garcia Loredo, M. Reid, G. Thwaites and B. Z. Wang (2026), "Firm Data on AI", *NBER Working Paper* 34836.
 
 ---
 
@@ -15,6 +15,7 @@ An interactive data dashboard accompanying the NBER Working Paper **"Firm Data o
 | **Personal AI Use** | Weekly AI use frequency reported by survey respondents |
 | **Employment Impacts** | Distribution and cumulative employment effects of AI (past 3 years / next 3 years) |
 | **Productivity Impacts** | Distribution and cumulative productivity effects of AI (past 3 years / next 3 years) |
+| **Survey Questions** | Screenshots of the AI questions as asked in each country's survey |
 | **About Us** | Information about the research team and surveys |
 
 - Compare a single technology across countries, or view the full technology mix for a selected country
@@ -45,8 +46,36 @@ firm-data-ai/
 ├── data/
 │   ├── *-data.js       # JavaScript data modules for each tab
 │   └── *.csv           # Flat CSV exports of each dataset
+├── screenshots/
+│   └── <country>/      # Survey question screenshots, one folder per country
+├── scripts/
+│   └── build_impact_data.py  # Builds the impact tabs' data from the workbook
 └── README.md
 ```
+
+---
+
+## Updating the Impact Data
+
+The Employment Impacts and Productivity Impacts data files are generated from the "Main Data for Sharing" workbook:
+
+```bash
+pip install openpyxl
+python3 scripts/build_impact_data.py "data/Firm Data on AI - Main Data for Sharing - October 2026.xlsx"
+```
+
+This rewrites `data/employment-impacts-data.js`, `data/productivity-impacts-data.js` and their CSVs. Before writing, it checks each table against the workbook's own formulas: every cumulative impact must match its shares, and every "All Firms" column must be the response-weighted average of its countries. Fieldwork dates and notes are not in the workbook's tables, so they live in the `WAVES` list at the top of the script. To add a new survey wave, append it there and point it at the new table's row.
+
+---
+
+## Adding Survey Question Screenshots
+
+The Survey Questions tab is driven by `data/survey-questions-data.js`. To add another country:
+
+1. Put its screenshots in a new folder, e.g. `screenshots/uk/`.
+2. Append an entry to `surveys` in `data/survey-questions-data.js` with the country label, survey name and link, and one `{ title, image, alt }` item per screenshot. The `alt` text should give the question wording, for screen readers.
+
+A country button appears on the tab for each entry, in the order listed.
 
 ---
 
